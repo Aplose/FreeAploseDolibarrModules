@@ -1,0 +1,41 @@
+# Translation file
+
+#
+# Generic
+#
+
+# Module label 'ModuleChangeModelPDFLocationName'
+ModuleChangeModelPDFLocationName = ChangeModelPDFLocation
+# Module description 'ModuleChangeModelPDFLocationDesc'
+ModuleChangeModelPDFLocationDesc = ChangeModelPDFLocation description
+
+#
+# Admin page
+#
+ChangeModelPDFLocationSetup = ChangeModelPDFLocation setup
+Settings = Settings
+ChangeModelPDFLocationSetupPage = ChangeModelPDFLocation setup page
+PATHS_SECTION=Définition des chemins à modifier
+CHANGEMODELPDFLOCATION_OLD_PDF_LOCATION=Start of the old location
+CHANGEMODELPDFLOCATION_NEW_PDF_LOCATION=Start of the new location
+ChangeModelPDFLocation=Modifier le chemin des modèles générique ODT des PDF
+
+
+#
+# About page
+#
+About = About
+ChangeModelPDFLocationAbout = About ChangeModelPDFLocation
+ChangeModelPDFLocationAboutPage = ChangeModelPDFLocation about page
+
+#
+# Sample page
+#
+ChangeModelPDFLocationArea = Home ChangeModelPDFLocation
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description

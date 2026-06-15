@@ -1,0 +1,10 @@
+{
+	"name" : "aplose/dolibinance",
+	"description" : "Module DoliBinance pour Dolibarr",
+	"require" : {
+		"binance/binance-connector-php": "^1.5"
+	},
+	"config" : {
+		"vendor-dir" : "includes"
+	}
+}

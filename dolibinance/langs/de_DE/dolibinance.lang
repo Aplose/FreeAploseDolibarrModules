@@ -1,0 +1,79 @@
+# Modulbezeichnung 'ModuleDoliBinanceName'
+ModuleDoliBinanceName = DoliBinance
+# Modulbeschreibung 'ModuleDoliBinanceDesc'
+ModuleDoliBinanceDesc = DoliBinance ist ein einfaches Modul, das die Möglichkeit bietet, mit Bitcoin oder jeder anderen von Binance akzeptierten Kryptowährung in Dolibarr bezahlt zu werden.<br>Die Zahlungsseite zeigt dem Kunden Ihre Bitcoin- oder andere Wallet-Adresse sowie ein Formular, in dem er die Transaktionskennung eingeben kann, die er über seine bevorzugte Methode (direkt, über Plattformen usw.) ausführen wird.<br>Die Rechnung wird als "bezahlt" markiert, sobald die Transaktion in der Blockchain bestätigt ist (automatischer Dolibarr-Job erforderlich: Aktivierung von Cron ist obligatorisch).
+
+#
+# Wörterbuch für Kryptozahlungsadressen
+#
+CryptoDepositAddresses = Verzeichnis der Binance-Zahlungsadressen
+
+#
+# Admin-Seite
+#
+DoliBinanceSetup = DoliBinance-Konfiguration
+Settings = Einstellungen
+DoliBinanceSetupPage = DoliBinance-Konfigurationsseite
+DOLIBINANCE_CREATE_ACCOUNT_LINK = Wenn Sie noch kein Binance-Konto haben, verwenden Sie diesen Link:
+DOLIBINANCE_CURRENT_BTC_PRICE = Durchschnittlicher Bitcoin-Preis in 24 Stunden (Quelle Binance)
+DOLIBINANCE_GENERATE_PAYMENT_IN_MAIN_CURRENCY = Eine Zahlung in der Hauptwährung auf der Rechnung erstellen?
+DOLIBINANCE_BTC_WALLET_ADDRESS = Bitcoin-Wallet-Adresse
+DOLIBINANCE_BTC_WALLET_ADDRESSTooltip = Geben Sie hier Ihre Bitcoin-Wallet-Adresse ein, um Zahlungen von Ihren Kunden zu erhalten.
+DOLIBINANCE_API_KEY = Binance-API-Schlüssel
+DOLIBINANCE_API_KEYToolTip = Geben Sie hier den für Dolibarr erstellten Binance-API-Schlüssel ein. Weitere Informationen finden Sie <A HREF="https://www.binance.com/en-BH/support/faq/how-to-create-api-360002502072">hier</A>.
+DOLIBINANCE_API_SECRET = Binance-API-Secret-Schlüssel
+DOLIBINANCE_API_SECRETToolTip = Geben Sie hier den geheimen Teil des Binance-API-Schlüssels ein.
+network = Netzwerk
+
+#
+# Über-Seite
+#
+About = Dokumentation / Über uns
+DoliBinanceAbout = Über DoliBinance und Dokumentation
+DoliBinanceAboutPage = DoliBinance wurde von Aplose (https://www.aplose.fr) entwickelt und wird von Olivier ANDRADE SANCHEZ (<A HREF="mailto:oandrade@aplose.fr">oandrade@aplose.fr</A>) betreut.
+
+# Neue Zahlung
+DoliBinancePaymentButton = Kryptowährungszahlung durch DoliBinance
+DoliBinanceCryptoChoice = Bitte wählen Sie Ihre Kryptowährung, um diese Rechnung zu begleichen:
+DoliBinanceNextStep = Nächster Schritt ->
+DoliBinanceStorePayment = Ihre Zahlung speichern
+DoliBinancePaymentStoredMessage = Ihre Zahlung wurde gespeichert. Nach Überprüfung (1 bis 10 Minuten, abhängig vom gewählten Blockchain-Netzwerk) wird Ihre Zahlung wirksam. Sie können dieses Fenster schließen.
+DoliBinancePaymentStored = Zahlung gespeichert
+DoliBinanceYouPayWith = Sie zahlen mit:
+DoliBinanceOnTheNetWork = Auf dem Netzwerk:
+DoliBinanceAddress = Die Adresse, die für Ihre Transaktion in der Blockchain verwendet werden soll, lautet:
+DoliBinanceAmmount = Der zu zahlende Betrag (basierend auf dem durchschnittlichen Preis in den letzten 24 Stunden, bereitgestellt von Binance) beträgt:
+DoliBinanceWarning = Achtung: Bitte achten Sie darauf, die richtige Adresse und das richtige Netzwerk für Ihre Überweisung zu verwenden, da eine Überweisung an eine falsche Adresse oder ein falsches Netzwerk nicht rückgängig gemacht werden kann.
+DoliBinanceAskForPayment = Bitte verwenden Sie nun Ihr gewohntes Zahlungsmittel, um Ihre Kryptowährungen an die oben genannte Adresse zu senden.
+DoliBinanceTransaction = Ihre Transaktionskennung (sofern bereits durchgeführt):
+DoliBinanceFromAddress = Die Adresse, von der Sie Ihre Kryptowährungen gesendet haben oder noch senden werden (erforderlich):
+DoliBinanceTransactionDisplay = Die gespeicherte Transaktionskennung lautet:
+DoliBinanceFromAddressDisplay = Die gespeicherte Absenderadresse lautet:
+
+#
+# Asset-Listenseite
+#
+DoliBinanceAssetList = Inhalt Ihres Binance-Spot-Wallets
+DoliBinanceWallet = Binance-Wallet
+
+#
+# Einzahlungsverlauf-Seite
+#
+DoliBinanceDepositHistory = Einzahlungsverlauf in Ihrem Wallet
+ToAddress = Empfangsadresse
+FromAddress = Absenderadresse
+TransactionHash = Transaktionskennung
+Asset = Vermögen
+Network = Netzwerk
+
+#
+# Beispielseite
+#
+DoliBinanceArea = Startseite DoliBinance
+MyPageName = Mein Seitenname
+
+#
+# Beispiel-Widget
+#
+MyWidget = Mein Widget
+MyWidgetDescription = Beschreibung meines Widgets

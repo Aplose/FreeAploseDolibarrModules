@@ -1,0 +1,119 @@
+= DOLIBINANCE =
+:subtitle: DOLIBINANCE DOCUMENTATION
+:source-highlighter: rouge
+:companyname: Aplose
+:corpname: Aplose
+:orgname: Aplose
+:creator: SuperAdmin
+:title: Documentation of module DoliBinance
+:subject: This document is the document of module DoliBinance.
+:keywords: DoliBinance
+// Date du document :
+:docdate: 2023-10-11
+:toc: manual
+:toc-placement: preamble
+
+
+== TOPIC OF DOCUMENT
+
+This is the documentation of module DoliBinance
+
+
+*Log of versions of document*
+
+[options="header",format="csv"]
+|=== 
+Author, Date, Version
+--- SuperAdmin   ---, 2023-10-11, Version 1.0
+|===
+
+
+[NOTE]
+==============
+This document was generated using Dolibarr ERP CRM process
+==============
+
+
+:toc: manual
+:toc-placement: preamble
+
+
+
+== INTRODUCTION
+
+//include::README.md[]
+__README__
+
+== DATA SPECIFICATIONS
+=== Table of fields with properties for object *Transaction* : 
+[options='header',grid=rows,frame=topbot,width=100%,caption=Organisation]
+|===
+|code|label|type|arrayofkeyval|notnull|default|index|foreignkey|position|enabled|visible|noteditable|alwayseditable|searchall|isameasure|css|cssview|csslist|help|showoncombobox|validate|comment|picto
+|*rowid*|integer|TechnicalID|1|10|1|-1||||||||||||||||
+|*transaction_hash*|varchar(128)|Transactionhash|1|15|0|-1||||||||||||||||
+|*from_address*|varchar(128)|Fromaddress|1|20|1|-1||||||||||||||||
+|*asset*|varchar(8)|Asset|1|25|1|-1||||||||||||||||
+|*network*|varchar(64)|Network|1|30|1|-1||||||||||||||||
+|*to_address*|varchar(128)|Toaddress|1|35|1|-1||||||||||||||||
+|*amount_to_pay*|real|Amounttopay|1|40|1|-1||||||||||||||||
+|*creation_date*|datetime|Creationdate|1|45|1|-1||||||||||||||||
+|*state*|integer|State|1|50|1|-1||||||||||||||||
+|===
+__ end table for object Transaction
+
+=== Table of fields with properties for object *BtcBlochainTransaction* : 
+[options='header',grid=rows,frame=topbot,width=100%,caption=Organisation]
+|===
+|code|label|type|arrayofkeyval|notnull|default|index|foreignkey|position|enabled|visible|noteditable|alwayseditable|searchall|isameasure|css|cssview|csslist|help|showoncombobox|validate|comment|picto
+|*rowid*|integer|TechnicalID|1|1|1|0|1|1|left|Id||||||||||||
+|*ref*|varchar(128)|Ref|1|20|1|1|1|1|1|1|Reference of object|||||||||||
+|*label*|varchar(255)|Label|1|30|0|1|1|1|minwidth300|wordbreak|Help text|2|1|||||||||
+|*amount*|price|Amount|1|40|0|1|null|1|Help text for amount|1||||||||||||
+|*qty*|real|Qty|1|45|0|1|0|1|maxwidth75imp|Help text for quantity|1|||||||||||
+|*fk_soc*|integer:Societe:societe/class/societe.class.php:1:((status:=:1) AND (entity:IN:__SHARED_ENTITIES__))|ThirdParty|company|isModEnabled("societe")|50|-1|1|1|maxwidth500 widthcentpercentminusxx|tdoverflowmax150|OrganizationEventLinkToThirdParty|1||||||||||
+|*fk_project*|integer:Project:projet/class/project.class.php:1|Project|project|isModEnabled("project")|52|-1|-1|1|maxwidth500 widthcentpercentminusxx|tdoverflowmax150|1|||||||||||
+|*description*|text|Description|1|60|0|3|1|||||||||||||||
+|*note_public*|html|NotePublic|1|61|0|0|wordbreak|1||||||||||||||
+|*note_private*|html|NotePrivate|1|62|0|0|wordbreak|1||||||||||||||
+|*date_creation*|datetime|DateCreation|1|500|1|-2||||||||||||||||
+|*tms*|timestamp|DateModification|1|501|0|-2||||||||||||||||
+|*fk_user_creat*|integer:User:user/class/user.class.php|UserAuthor|user|1|510|1|-2|user.rowid|tdoverflowmax150|||||||||||||
+|*fk_user_modif*|integer:User:user/class/user.class.php|UserModif|user|1|511|-1|-2|tdoverflowmax150||||||||||||||
+|*last_main_doc*|varchar(255)|LastMainDoc|1|600|0|0||||||||||||||||
+|*import_key*|varchar(14)|ImportId|1|1000|-1|-2||||||||||||||||
+|*model_pdf*|varchar(255)|Model pdf|1|1010|-1|0||||||||||||||||
+|*status*|integer|Status|1|2000|1|1|1|Array|1|||||||||||||
+|===
+__ end table for object BtcBlochainTransaction
+
+
+__DATA_SPECIFICATION__
+
+
+== MATRIX OF PERMISSIONS
+
+[options='header',grid=rows,width=60%,caption=Organisation]
+|===
+|Objects|Permission
+|*myobject*|Read objects of DoliBinance , Delete objects of DoliBinance , 
+|*Create/Update objects of DoliBinance*|// In php code, permission will be checked by test if ($user->hasRight('dolibtc',myobject',read'))
+		1 , 
+|*// In php code, permission will be checked by test if ($user->hasRight('dolibtc',myobject',write'))
+		1*|myobject , 
+|**|// In php code, permission will be checked by test if ($user->rights->dolibtc->myobject->delete)
+		1 , 
+
+|===
+
+
+
+== OTHER
+
+__API_DOC__
+
+
+== CHANGELOG
+
+//include::ChangeLog.md[]
+__CHANGELOG__
+

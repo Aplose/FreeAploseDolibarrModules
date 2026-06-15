@@ -1,0 +1,284 @@
+<div class="dpf-about-doc">
+<style>
+.dpf-about-doc { --dpf-brand: #5b21b6; --dpf-brand-2: #7c3aed; --dpf-accent: #0d9488; }
+.dpf-about-doc .dpf-hero-doc { background: linear-gradient(125deg, #4f46e5 0%, #7c3aed 45%, #a855f7 100%); }
+.dpf-about-doc .dpf-card-doc { border: none; border-radius: 0.75rem; box-shadow: 0 0.125rem 0.5rem rgba(15, 23, 42, 0.08); transition: box-shadow 0.2s ease, transform 0.2s ease; }
+.dpf-about-doc .dpf-card-doc:hover { box-shadow: 0 0.35rem 1rem rgba(15, 23, 42, 0.12); transform: translateY(-1px); }
+.dpf-about-doc .dpf-icon-wrap { width: 2.75rem; height: 2.75rem; border-radius: 0.65rem; display: inline-flex; align-items: center; justify-content: center; font-size: 1.35rem; }
+.dpf-about-doc .dpf-screenshot { border: 1px solid rgba(15, 23, 42, 0.08); border-radius: 0.5rem; overflow: hidden; background: #f8fafc; }
+.dpf-about-doc .dpf-screenshot img { min-height: 120px; object-fit: cover; }
+.dpf-about-doc .dpf-step-num { width: 2rem; height: 2rem; border-radius: 50%; background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; font-weight: 700; font-size: 0.9rem; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.dpf-about-doc .table thead th { background: #f1f5f9; color: #334155; font-weight: 600; }
+.dpf-about-doc .dpf-mgc-banner { background: linear-gradient(120deg, #0f766e 0%, #0d9488 50%, #14b8a6 100%); }
+.dpf-about-doc .dpf-dolistore-banner { background: linear-gradient(120deg, #1e3a5f 0%, #2563eb 100%); }
+</style>
+
+<div class="dpf-hero-doc text-white rounded-4 p-4 p-md-5 mb-4 shadow">
+	<div class="row align-items-center g-3">
+		<div class="col-lg-8">
+			<h1 class="h2 fw-bold mb-3 d-flex align-items-center gap-3">
+				<span class="dpf-icon-wrap bg-white bg-opacity-25 text-white"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i></span>
+				DoliProspectForm — Guida utente
+			</h1>
+			<p class="lead mb-0 opacity-95">Questa guida presenta il modulo dal punto di vista dell’utente finale: a cosa serve, come usarlo quotidianamente e dove trovare le azioni principali in Dolibarr.</p>
+		</div>
+		<div class="col-lg-4 text-lg-end">
+			<i class="bi bi-people-fill d-none d-lg-inline" style="font-size: 4rem; opacity: 0.35;" aria-hidden="true"></i>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid px-0">
+
+	<section class="mb-4">
+		<div class="card dpf-card-doc border-0">
+			<div class="card-body p-4">
+				<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2 text-primary">
+					<span class="dpf-icon-wrap bg-primary bg-opacity-10 text-primary"><i class="bi bi-lightbulb-fill" aria-hidden="true"></i></span>
+					A cosa serve questo modulo?
+				</h2>
+				<p class="mb-3"><strong>DoliProspectForm</strong> consente di proporre ai prospect <strong>moduli pubblici</strong> utilizzabili senza accesso a Dolibarr: possono inserire i propri dati e allegare documenti (ad esempio bollette energetiche in PDF) direttamente da un link che inviate loro.</p>
+				<div class="row g-3">
+					<div class="col-md-6">
+						<div class="border border-success border-opacity-25 rounded-3 p-3 h-100 bg-success bg-opacity-10">
+							<h3 class="h6 fw-semibold text-success mb-2"><i class="bi bi-person-fill me-2" aria-hidden="true"></i>Privato</h3>
+							<p class="small mb-0 text-body-secondary">Persona fisica: identità, indirizzo e allegati.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="border border-warning border-opacity-50 rounded-3 p-3 h-100 bg-warning bg-opacity-10">
+							<h3 class="h6 fw-semibold text-warning-emphasis mb-2"><i class="bi bi-building me-2" aria-hidden="true"></i>Azienda</h3>
+							<p class="small mb-0 text-body-secondary">Società (ricerca per ragione sociale o identificativi se disponibili), sede legale, referente e allegati.</p>
+						</div>
+					</div>
+				</div>
+				<p class="mt-3 mb-0"><i class="bi bi-signpost-split text-info me-2" aria-hidden="true"></i>È possibile offrire una <strong>pagina di scelta</strong>: il prospect seleziona il tipo di modulo adatto alla propria situazione prima di proseguire. I dati alimentano in Dolibarr la scheda <strong>terzo</strong>, il <strong>contatto</strong> e i file sulla scheda, a seconda dello scenario.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="card dpf-card-doc">
+			<div class="card-body p-4">
+				<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2 text-secondary">
+					<span class="dpf-icon-wrap bg-secondary bg-opacity-10 text-secondary"><i class="bi bi-diagram-3-fill" aria-hidden="true"></i></span>
+					Chi fa cosa nell’organizzazione
+				</h2>
+				<div class="table-responsive rounded-3 border">
+					<table class="table table-hover align-middle mb-0">
+						<thead><tr><th scope="col">Ruolo</th><th scope="col">Uso tipico</th></tr></thead>
+						<tbody>
+							<tr><td class="fw-semibold text-danger"><i class="bi bi-shield-lock-fill me-1" aria-hidden="true"></i>Amministratore</td><td>Attiva il modulo, configura moduli, testi, notifiche e link «anonimi» se necessario.</td></tr>
+							<tr><td class="fw-semibold text-primary"><i class="bi bi-briefcase-fill me-1" aria-hidden="true"></i>Commerciale / utente business</td><td>Usa <strong>link firmati</strong> o <strong>inviti</strong>, consulta gli <strong>invii</strong> ricevuti.</td></tr>
+							<tr><td class="fw-semibold text-success"><i class="bi bi-person-hearts me-1" aria-hidden="true"></i>Prospect (esterno)</td><td>Apre il link, compila il modulo e invia gli allegati, senza account Dolibarr.</td></tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="card dpf-card-doc">
+			<div class="card-body p-4">
+				<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2 text-success">
+					<span class="dpf-icon-wrap bg-success bg-opacity-10 text-success"><i class="bi bi-rocket-takeoff-fill" aria-hidden="true"></i></span>
+					Primi passi dopo l’attivazione
+				</h2>
+				<ol class="list-group list-group-numbered list-group-flush rounded-3 border">
+					<li class="list-group-item d-flex gap-3 py-3"><span class="text-primary"><i class="bi bi-chat-quote-fill fs-5" aria-hidden="true"></i></span><div>I <strong>testi predefiniti</strong> delle pagine pubbliche sono pronti all’uso; potete personalizzarli nella configurazione del modulo.</div></li>
+					<li class="list-group-item d-flex gap-3 py-3"><span class="text-info"><i class="bi bi-envelope-paper-fill fs-5" aria-hidden="true"></i></span><div>Utili <strong>modelli e-mail</strong> possono essere creati automaticamente; si trovano nell’amministrazione dei modelli e-mail di Dolibarr.</div></li>
+					<li class="list-group-item d-flex gap-3 py-3"><span class="text-warning"><i class="bi bi-send-check-fill fs-5" aria-hidden="true"></i></span><div>Verificate l’<strong>invio e-mail</strong> di Dolibarr e le <strong>notifiche</strong> per i nuovi invii.</div></li>
+				</ol>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="card dpf-card-doc">
+			<div class="card-body p-4">
+				<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2 text-dark">
+					<span class="dpf-icon-wrap bg-dark bg-opacity-10 text-dark"><i class="bi bi-compass-fill" aria-hidden="true"></i></span>
+					Dove trovare il modulo in Dolibarr
+				</h2>
+				<p>Il modulo compare nel <strong>menu principale</strong> con una voce dedicata (etichetta tipo «DoliProspectForm» a seconda del pacchetto lingua).</p>
+				<ul class="mb-4">
+					<li><i class="bi bi-speedometer2 text-primary me-2" aria-hidden="true"></i><strong>Dashboard</strong> — panoramica e follow-up</li>
+					<li><i class="bi bi-envelope-plus text-danger me-2" aria-hidden="true"></i><strong>Invito</strong> — flusso guidato per inviare l’e-mail al prospect</li>
+					<li><i class="bi bi-list-check text-success me-2" aria-hidden="true"></i><strong>Moduli pubblici completati</strong> — storico degli invii</li>
+				</ul>
+				<p class="small text-body-secondary mb-4">Impostazioni avanzate (moduli attivi, durata dei link, utente tecnico, testi, modello di notifica, e-mail di fallback, ecc.) sono nella <strong>configurazione del modulo</strong>.</p>
+				<div class="row g-3">
+					<div class="col-md-6">
+						<figure class="figure dpf-screenshot mb-0 w-100">
+							<img src="../img/screenshot-menu-module.png" class="figure-img img-fluid w-100 mb-0" alt="Schermata: voce del modulo nel menu Dolibarr" loading="lazy" width="800" height="450">
+							<figcaption class="figure-caption text-center py-2 small text-muted"><i class="bi bi-image text-primary me-1" aria-hidden="true"></i>Menu — aggiungete <code class="small">img/screenshot-menu-module.png</code></figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6">
+						<figure class="figure dpf-screenshot mb-0 w-100">
+							<img src="../img/screenshot-tableau-de-bord.png" class="figure-img img-fluid w-100 mb-0" alt="Schermata: dashboard del modulo" loading="lazy" width="800" height="450">
+							<figcaption class="figure-caption text-center py-2 small text-muted"><i class="bi bi-image text-primary me-1" aria-hidden="true"></i>Dashboard — <code class="small">img/screenshot-tableau-de-bord.png</code></figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="card dpf-card-doc">
+			<div class="card-body p-4">
+				<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2" style="color:#7c2d12;">
+					<span class="dpf-icon-wrap" style="background:#ffedd5;color:#c2410c;"><i class="bi bi-link-45deg" aria-hidden="true"></i></span>
+					Far compilare un fascicolo a un prospect
+				</h2>
+				<div class="accordion accordion-flush" id="dpfAboutAccordion">
+					<div class="accordion-item border rounded-3 mb-2 overflow-hidden">
+						<h3 class="accordion-header"><button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#dpfAcc1" aria-expanded="true">Link da un’e-mail o mailing Dolibarr</button></h3>
+						<div id="dpfAcc1" class="accordion-collapse collapse show" data-bs-parent="#dpfAboutAccordion">
+							<div class="accordion-body small">
+								<p class="mb-2">Dalla scheda di un <strong>terzo</strong>, i <strong>tag di sostituzione</strong> possono inserire link alla pagina di scelta, al modulo privato o a quello aziendale. Il <strong>commerciale</strong> corretto è associato al caso in base al contesto.</p>
+								<p class="mb-0 text-body-secondary">Il vostro amministratore può indicare quali tag usare (schermata di aiuto o configurazione).</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item border rounded-3 mb-2 overflow-hidden">
+						<h3 class="accordion-header"><button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#dpfAcc2">Link «senza utente commerciale»</button></h3>
+						<div id="dpfAcc2" class="accordion-collapse collapse" data-bs-parent="#dpfAboutAccordion">
+							<div class="accordion-body small">Per un <strong>sito web</strong> o una campagna generica, la configurazione può mostrare un <strong>link pubblico stabile</strong>. Nella pagina di scelta, il visitatore può inserire l’<strong>e-mail di un consulente</strong> Dolibarr se l’opzione è prevista.</div>
+						</div>
+					</div>
+					<div class="accordion-item border rounded-3 overflow-hidden">
+						<h3 class="accordion-header"><button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#dpfAcc3">Inviti dal menu del modulo</button></h3>
+						<div id="dpfAcc3" class="accordion-collapse collapse" data-bs-parent="#dpfAboutAccordion">
+							<div class="accordion-body small">Crea un <strong>terzo prospect</strong> con denominazione provvisoria, e-mail opzionale, poi apre la schermata di invio e-mail di Dolibarr. Il link ricevuto consente al prospect di completare la scheda creata.</div>
+						</div>
+					</div>
+				</div>
+				<div class="row g-3 mt-3">
+					<div class="col-md-6">
+						<figure class="figure dpf-screenshot mb-0 w-100">
+							<img src="../img/screenshot-invitation.png" class="figure-img img-fluid w-100 mb-0" alt="Schermata: invito" loading="lazy" width="800" height="450">
+							<figcaption class="figure-caption text-center py-2 small text-muted"><code class="small">img/screenshot-invitation.png</code></figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6">
+						<figure class="figure dpf-screenshot mb-0 w-100">
+							<img src="../img/screenshot-submissions.png" class="figure-img img-fluid w-100 mb-0" alt="Schermata: elenco invii" loading="lazy" width="800" height="450">
+							<figcaption class="figure-caption text-center py-2 small text-muted"><code class="small">img/screenshot-submissions.png</code></figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="card dpf-card-doc">
+			<div class="card-body p-4">
+				<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2 text-info">
+					<span class="dpf-icon-wrap bg-info bg-opacity-10 text-info"><i class="bi bi-ui-checks-grid" aria-hidden="true"></i></span>
+					Lato prospect: percorso del modulo
+				</h2>
+				<div class="d-flex flex-column gap-3">
+					<div class="d-flex gap-3"><span class="dpf-step-num">1</span><div>Apre il <strong>link</strong> (e-mail, SMS, sito web, ecc.).</div></div>
+					<div class="d-flex gap-3"><span class="dpf-step-num">2</span><div>Nella pagina di <strong>scelta</strong>, seleziona Privato o Azienda.</div></div>
+					<div class="d-flex gap-3"><span class="dpf-step-num">3</span><div>Campi obbligatori e <strong>PDF</strong> richiesti.</div></div>
+					<div class="d-flex gap-3"><span class="dpf-step-num">4</span><div>Modulo azienda: la <strong>ricerca società</strong> può precompilare i dati; il prospect conferma e completa il contatto.</div></div>
+					<div class="d-flex gap-3"><span class="dpf-step-num">5</span><div><strong>Captcha</strong> sui moduli privato e azienda se attivato sulla vostra istanza (non sulla pagina di scelta).</div></div>
+					<div class="d-flex gap-3"><span class="dpf-step-num">6</span><div><strong>Messaggio di ringraziamento</strong> dopo l’invio. Link scaduto o modulo disattivato: messaggio per contattare la vostra azienda.</div></div>
+				</div>
+				<figure class="figure dpf-screenshot mt-4 mb-0">
+					<img src="../img/screenshot-form-aiguillage.png" class="figure-img img-fluid w-100 mb-0" alt="Schermata: pagina di scelta o modulo pubblico" loading="lazy" width="900" height="500">
+					<figcaption class="figure-caption text-center py-2 small text-muted"><code class="small">img/screenshot-form-aiguillage.png</code> — modulo pubblico o hub</figcaption>
+				</figure>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="card dpf-card-doc">
+			<div class="card-body p-4">
+				<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2 text-primary">
+					<span class="dpf-icon-wrap bg-primary bg-opacity-10 text-primary"><i class="bi bi-inboxes-fill" aria-hidden="true"></i></span>
+					Seguire le richieste ricevute
+				</h2>
+				<p>L’elenco dei <strong>moduli pubblici completati</strong> mostra tipo, data, terzo, numero di allegati, in base ai permessi Dolibarr.</p>
+				<p class="mb-0">Le <strong>notifiche e-mail</strong> possono avvisare il commerciale identificato, altrimenti un <strong>indirizzo di fallback</strong> impostato dall’amministratore. Il contenuto dipende dal <strong>modello e-mail</strong> selezionato.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="card dpf-card-doc border-primary border-opacity-25">
+			<div class="card-body p-4">
+				<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2 text-primary">
+					<span class="dpf-icon-wrap bg-primary bg-opacity-10 text-primary"><i class="bi bi-patch-check-fill" aria-hidden="true"></i></span>
+					Buone pratiche
+				</h2>
+				<ul class="list-unstyled mb-0">
+					<li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2" aria-hidden="true"></i>Indicate chiaramente quali documenti allegare (testi di aiuto in configurazione).</li>
+					<li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2" aria-hidden="true"></i>Dopo una modifica di configurazione, testate l’intero percorso.</li>
+					<li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2" aria-hidden="true"></i>Trattate i link come accessi sensibili.</li>
+					<li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2" aria-hidden="true"></i>Link scaduto: verificate la durata configurata e inviate un <strong>nuovo invito</strong> se necessario.</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="alert alert-light border shadow-sm d-flex gap-3 align-items-start" role="note">
+			<i class="bi bi-question-circle-fill text-primary fs-4 flex-shrink-0" aria-hidden="true"></i>
+			<div>
+				<h2 class="h5 fw-bold mb-2">Serve aiuto?</h2>
+				<p class="mb-0 small">Per il funzionamento funzionale del modulo o i permessi Dolibarr, contattate l’<strong>amministratore</strong> dell’istanza o il vostro <strong>integratore</strong>.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="card border-0 text-white dpf-mgc-banner shadow overflow-hidden">
+			<div class="card-body p-4 p-md-5">
+				<div class="row align-items-center g-4">
+					<div class="col-lg-8">
+						<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2">
+							<i class="bi bi-cloud-arrow-up-fill fs-3" aria-hidden="true"></i> Scoprite Ma Gestion Cloud
+						</h2>
+						<p class="mb-3 opacity-95">Dolibarr pronto all’uso, ospitato e supportato da team francesi: installazione, backup, servizi gestiti e assistenza.</p>
+						<ul class="small opacity-90 mb-3">
+							<li>Prova gratuita, prezzi trasparenti</li>
+							<li>Preferred Partner Francia</li>
+						</ul>
+						<a href="https://www.ma-gestion-cloud.fr/" target="_blank" rel="noopener noreferrer" class="btn btn-light btn-lg fw-semibold"><i class="bi bi-box-arrow-up-right me-2" aria-hidden="true"></i>www.ma-gestion-cloud.fr</a>
+					</div>
+					<div class="col-lg-4 text-center d-none d-lg-block">
+						<i class="bi bi-globe2" style="font-size: 5rem; opacity: 0.25;" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mb-4">
+		<div class="card border-0 text-white dpf-dolistore-banner shadow overflow-hidden">
+			<div class="card-body p-4 p-md-5">
+				<div class="row align-items-center g-4">
+					<div class="col-lg-8">
+						<h2 class="h4 fw-bold mb-3 d-flex align-items-center gap-2">
+							<i class="bi bi-shop-window fs-3" aria-hidden="true"></i> Moduli Aplose su Dolistore
+						</h2>
+						<p class="mb-3 opacity-95"><strong>Aplose</strong> realizza moduli Dolibarr per vendite, automazione ed efficienza operativa. Trovate le estensioni sul marketplace ufficiale.</p>
+						<a href="https://www.dolistore.com" target="_blank" rel="noopener noreferrer" class="btn btn-warning btn-lg fw-semibold text-dark"><i class="bi bi-cart3 me-2" aria-hidden="true"></i>Dolistore.com</a>
+					</div>
+					<div class="col-lg-4 text-center d-none d-lg-block">
+						<i class="bi bi-puzzle-fill" style="font-size: 5rem; opacity: 0.25;" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<p class="text-muted small text-center border-top pt-3 mb-0"><i class="bi bi-info-circle me-1" aria-hidden="true"></i>Documento per utenti business e funzionali. Non sostituisce la documentazione amministratore né le linee guida interne della vostra organizzazione.</p>
+
+</div>

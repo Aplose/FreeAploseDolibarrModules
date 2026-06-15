@@ -1,0 +1,31 @@
+-- DoliCarbon - Activity / emission entry lines
+
+CREATE TABLE llx_dolicarbon_entry (
+	rowid integer AUTO_INCREMENT PRIMARY KEY,
+	fk_bilan integer NOT NULL,
+	scope tinyint NOT NULL,
+	category varchar(100) NOT NULL,
+	label varchar(255),
+	quantity double NOT NULL DEFAULT 0,
+	unit varchar(30),
+	fk_factor integer,
+	tco2e_computed double DEFAULT 0,
+	source_type varchar(30) DEFAULT 'manual',
+	fk_source_object integer,
+	source_ref varchar(50),
+	fk_user_creat integer,
+	date_creation datetime,
+	tms timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	quality_grade varchar(2) DEFAULT 'B',
+	uncertainty_pct_low double DEFAULT 10,
+	uncertainty_pct_high double DEFAULT 20,
+	workflow_status varchar(32) DEFAULT 'draft',
+	evidence_ref varchar(255),
+	factor_kgco2e_snapshot double,
+	calculation_formula varchar(255),
+	calculation_fingerprint varchar(128),
+	import_hash varchar(128) NULL,
+	import_batch varchar(64) NULL,
+	is_fictional tinyint NOT NULL DEFAULT 0,
+	seed_batch varchar(64) NULL
+) ENGINE=innodb;

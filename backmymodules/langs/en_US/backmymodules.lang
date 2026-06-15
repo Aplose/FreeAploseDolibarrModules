@@ -1,0 +1,52 @@
+# Copyright (C) 2023 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleBackMyModulesName'
+ModuleBackMyModulesName = BackMyModules
+# Module description 'ModuleBackMyModulesDesc'
+ModuleBackMyModulesDesc = BackMyModules allows to create a zip archive of all modules present in /custom/ directory and to download it. You can also delete disabled modules.
+
+#
+# Admin page
+#
+BackMyModulesSetup = BackMyModules
+BackMyModulesTab = BackMyModules
+BackMyModulesSetupPage = BackMyModules page
+BackMyModulesAboutToDeleteMessage = You are about to delete the extension module:  
+BackMyModulesAboutToDeleteMessage2 = If you are sure about this action, please confirm or cancel:
+BackMyModulesConfirmButton = Confirm
+BackMyModulesCancelButton = Cancel
+BackMyModulesCreateZipButton = Create a zip file of the add-on modules (located in /custom/)
+BackMyModulesDownloadZipLink = Download the BackupMyModules Zip file
+BackMyModulesDeleteArrayTitle = Deletion of deactivated add-on modules
+BackMyModulesDeleteArrayWarningMessage = Warning, this action is irreversible. If you don't have a backup, for safety, the directory containing the module data is not deleted. Therefore, make a BackupMyModules before ;-) 
+BackMyModulesDeleteArrayTh1 = Module name
+BackMyModulesDeleteArrayTh2 = Activated?
+BackMyModulesDeleteArrayTh3 = Deletion action
+BackMyModulesDeleteArrayTd1 = Active
+BackMyModulesDeleteArrayTd2 = Deleion not available
+BackMyModulesDeleteArrayTd3 = Disabled
+BackMyModulesDeleteArrayTd4 = Immediate and irreversible deletion
+
+#
+# About page
+#
+BackMyModulesAboutTab = Help
+BackMyModulesAbout = BackMyModules Help
+BackMyModulesAboutPage = BackMyModules help page

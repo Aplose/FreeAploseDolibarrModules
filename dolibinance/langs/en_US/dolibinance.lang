@@ -1,0 +1,79 @@
+# Module label 'ModuleDoliBinanceName'
+ModuleDoliBinanceName = DoliBinance
+# Module description 'ModuleDoliBinanceDesc'
+ModuleDoliBinanceDesc = DoliBinance is a simple module to add capability to accept Bitcoin or other crypto allowed by Binance, on Dolibarr.<br>The payment page display your wallet deposit address (set it with the dictionnary) to the customer and a form to allow him to enter the transaction data he made to paid the invoice (by blockchain direct payment or exchange,...).<br>The invoice is set to "paid" when the transaction is validated on the blockchain (needs a scheduled cron job).
+
+#
+# CryptoDepositAddresses Dictionnary
+#
+CryptoDepositAddresses=Binance Payment Addresses Directory
+
+#
+# Admin page
+#
+DoliBinanceSetup = DoliBinance setup
+Settings = Settings
+DoliBinanceSetupPage = DoliBinance setup page
+DOLIBINANCE_CREATE_ACCOUNT_LINK = If you don't have your Binance account yet, use this link :
+DOLIBINANCE_CURRENT_BTC_PRICE = Current average Bitcoin price for 24h (source Binance)
+DOLIBINANCE_GENERATE_PAYMENT_IN_MAIN_CURRENCY = Create a payment in main currency on the invoice ?
+DOLIBINANCE_BTC_WALLET_ADDRESS = Bitcoin Wallet Address
+DOLIBINANCE_BTC_WALLET_ADDRESSTooltip = Insert here your binance Bitcoin Wallet Address to receive payments from your customers.
+DOLIBINANCE_API_KEY = Binance Api Key
+DOLIBINANCE_API_KEYToolTip = Insert here the api key you create on Binance. More info <A HREF="https://www.binance.com/en-BH/support/faq/how-to-create-api-360002502072">here</A>.
+DOLIBINANCE_API_SECRET = Binance Api Secret
+DOLIBINANCE_API_SECRETToolTip = Insert here the secret part of the Binance Api Key.
+network = Network
+
+#
+# Asset List Page
+#
+DoliBinanceAssetList = Content of your Binance Spot Wallet
+DoliBinanceWallet = Binance Wallet
+
+#
+# Deposit History Page
+#
+DoliBinanceDepositHistory = Your wallet desposit history
+ToAddress = Deposit address
+FromAddress = Source address
+TransactionHash = Transaction Id
+Asset = Asset
+Network = Network
+
+#
+# About page
+#
+About = Documentation / About
+DoliBinanceAbout = About DoliBinance and Documentation
+DoliBinanceAboutPage = DoliBinance is developped by Aplose (https://www.aplose.fr) and maintained by Olivier ANDRADE SANCHEZ (oandrade@aplose.fr).
+
+# NewPayment 
+DoliBinancePaymentButton = Cryptocurrency Payment by DoliBinance
+DoliBinanceCryptoChoice = Please, choose your crypto to pay this invoice : 
+DoliBinanceNextStep = Next step ->
+DoliBinanceStorePayment = Store your payment
+DoliBinancePaymentStoredMessage = Your payment was stored. After verification (one to 10 minutes regarding the blockchain network used), your payment will be effective. You can close this screen.
+DoliBinancePaymentStored = Payment stored
+DoliBinanceYouPayWith = You pay with: 
+DoliBinanceOnTheNetWork = On network: 
+DoliBinanceAddress = The address to send your crypto on the blockchain is: 
+DoliBinanceAmmount = The ammount to pay (regarding the average price for the last 24h rolling window given by Binance) is: 
+DoliBinanceWarning = Be careful to respect the asset, the address and the network for your payment as it's impossible to cancel a wrongly sent transaction on the blockchain.
+DoliBinanceAskForPayment = Now, please, use your usual tool to send your crypto to the upper address.
+DoliBinanceTransaction = Your transcation hash (if already done):
+DoliBinanceFromAddress = Your address form wich you sent or will send your cryptos (mandatory):
+DoliBinanceTransactionDisplay = The stored transaction hash is: 
+DoliBinanceFromAddressDisplay = The stored from address is: 
+
+#
+# Sample page
+#
+DoliBinanceArea = Home DoliBinance
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description

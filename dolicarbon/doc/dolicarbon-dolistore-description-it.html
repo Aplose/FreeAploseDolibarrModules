@@ -1,0 +1,207 @@
+<h2>DoliCarbon - Inventari di emissioni di gas a effetto serra (GES)</h2>
+
+<p>Il modulo <strong>DoliCarbon</strong> consente di strutturare e seguire un inventario di emissioni di gas a effetto serra in Dolibarr: inventari per esercizio, righe di attività (scope 1, 2 e 3), fattori di emissione, azioni di riduzione, inquadramento metodologico, cruscotti, report con esportazioni e una procedura di importazione dai dati Dolibarr. Un’applicazione web integrata (Angular) affianca le schermate classiche del modulo.</p>
+
+<p><strong>🎁 Prova Dolibarr ospitato con i moduli Aplose!</strong></p>
+<p>Crea il tuo ambiente in pochi minuti su Ma Gestion Cloud: hosting, backup e supporto. Chiedi un’offerta adatta alle tue esigenze (i moduli inclusi dipendono dal piano).</p>
+<p><strong><a href="https://aplose.ma-gestion-cloud.fr/custom/sellyoursaas/myaccount/register.php?origin=dolistore">👉 Crea un account Ma Gestion Cloud</a></strong></p>
+
+<h3>Perché scegliere DoliCarbon?</h3>
+
+<p>DoliCarbon concentra l’inventario delle emissioni in Dolibarr: stessi utenti, stessi permessi e dati collegati all’anagrafica (terzi, acquisti, ecc.) quando usi import e promemoria in validazione. Gli scope 1, 2 e 3 sono gestiti con categorie esplicite, fattori di emissione tracciabili e viste di rendicontazione (executive, analista, allegato metodologico).</p>
+
+<h3>Funzionalità principali</h3>
+
+<h4>🌿 Inventari (bilans)</h4>
+
+<p><strong>Periodi e riferimenti</strong></p>
+<ul>
+<li>Inventari per anno con riferimento automatico del tipo <code>CARBON-{anno}-{sequenza}</code></li>
+<li>Date di inizio e fine periodo, collegamento opzionale a un soggetto terzo</li>
+<li>Totali e obiettivi in tCO2e, stati di workflow (bozza, validato, archiviato)</li>
+</ul>
+
+<h4>📊 Righe di attività</h4>
+
+<p><strong>Scope e calcolo</strong></p>
+<ul>
+<li>Inserimento per scope 1, 2 o 3 e per categorie del modulo</li>
+<li>Quantità, unità, collegamento a un fattore di emissione per il calcolo delle emissioni</li>
+<li>Workflow di validazione, commenti e tracciabilità; possibile collegamento agli oggetti sorgente (es. fatture fornitore importate)</li>
+</ul>
+
+<h4>🔢 Fattori di emissione</h4>
+
+<ul>
+<li>Libreria di fattori di emissione (campi di versionamento nel modello dati)</li>
+<li>Attivazione o disattivazione secondo le regole dello schema</li>
+</ul>
+
+<h4>🎯 Azioni di riduzione</h4>
+
+<ul>
+<li>Azioni collegate a un inventario: risparmi stimati, costi, punteggi, stato</li>
+</ul>
+
+<h4>📐 Inquadramento metodologico</h4>
+
+<ul>
+<li>Documentazione di perimetro, esclusioni, materialità, anni di riferimento e di reporting</li>
+<li>Testi riutilizzati nel report (allegato metodologico)</li>
+</ul>
+
+<h4>📈 Cruscotto e report</h4>
+
+<ul>
+<li>Vista aggregata: indicatori, scope, serie temporale, categorie principali</li>
+<li>Report multiparte: sintesi esecutiva, dettaglio analista, allegato metodologico</li>
+<li>Esportazioni <strong>CSV</strong> e <strong>JSON</strong>; <strong>istantanea</strong> (snapshot) per uno stato riproducibile</li>
+<li>Testo di avvertenza per la comunicazione se configurato</li>
+</ul>
+
+<h4>✅ Qualità e tracciabilità</h4>
+
+<ul>
+<li>Workflow sulle righe, commenti, registro di audit</li>
+</ul>
+
+<h4>🔄 Piano di transizione</h4>
+
+<ul>
+<li>Vista sintetica delle azioni di riduzione per il governo (logica costo/beneficio nell’interfaccia)</li>
+</ul>
+
+<h4>⬇️ Importazione da Dolibarr</h4>
+
+<ul>
+<li>Procedura di importazione per collegare i dati Dolibarr alle righe dell’inventario</li>
+</ul>
+
+<h4>⚙️ Opzioni amministratore</h4>
+
+<p><strong>Promemoria in validazione (configurabili)</strong></p>
+<ul>
+<li>In validazione di una <strong>fattura fornitore</strong>, di una <strong>nota spese</strong> o di una <strong>spedizione</strong>: messaggi informativi verso DoliCarbon se l’opzione è attiva (link all’import per le fatture fornitore)</li>
+<li>Importazione automatica <strong>opzionale</strong>: in validazione di una fattura fornitore, creazione di una riga scope 3 (categoria <code>purchases_services</code>) a condizioni: inventario in bozza, fattore attivo coerente, importo imponibile in EUR; i duplicati sono evitati tramite hash di importazione</li>
+</ul>
+
+<h4>🖥️ Due modalità di accesso</h4>
+
+<ul>
+<li><strong>Interfaccia integrata</strong> (<code>/custom/dolicarbon/index.php</code>): dashboard, inventari, inquadramento, righe, fattori, azioni, qualità, transizione, importazione, report (permesso minimo di lettura <code>dolicarbon</code>)</li>
+<li><strong>Schermate PHP</strong>: elenco inventari, fattori e altre pagine <code>carbon_*.php</code> fornite</li>
+</ul>
+
+<h3>Vantaggi principali</h3>
+
+<ul>
+<li><strong>Inventario in Dolibarr</strong>: un solo punto per permessi e dati</li>
+<li><strong>Scope 1, 2 e 3</strong> con categorie esplicite</li>
+<li><strong>Calcolo tracciabile</strong>: righe collegate ai fattori di emissione</li>
+<li><strong>Report ed esportazioni</strong>: CSV, JSON, snapshot</li>
+<li><strong>Interfaccia moderna</strong>: Angular (Material) per l’app integrata</li>
+<li><strong>Permessi granulari</strong>: lettura, scrittura, eliminazione, validazione (workflow)</li>
+<li><strong>Lingue modulo</strong>: francese (fr_FR), inglese (en_US); interfaccia integrata con <code>fr.json</code></li>
+</ul>
+
+<h3>Casi d’uso</h3>
+
+<ul>
+<li><strong>Sostenibilità / HSE</strong>: inventario annuale e monitoraggio delle riduzioni</li>
+<li><strong>PMI</strong>: centralizzare inventari, fattori e azioni senza foglio isolato</li>
+<li><strong>Consulenza</strong>: strutturare il follow-up per più entità (multisocietà secondo la configurazione Dolibarr)</li>
+<li><strong>Acquisti / logistica</strong>: promemoria e import opzionale da fatture fornitore validate</li>
+</ul>
+
+<h3>Informazioni tecniche</h3>
+
+<table border="1" cellpadding="5" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+<tr>
+<td><strong>Autore</strong></td>
+<td>Ma Gestion Cloud / Aplose</td>
+</tr>
+<tr>
+<td><strong>Versione modulo</strong></td>
+<td>1.0.0</td>
+</tr>
+<tr>
+<td><strong>Compatibilità Dolibarr</strong></td>
+<td>17.x minimo (secondo descrittore del modulo)</td>
+</tr>
+<tr>
+<td><strong>PHP</strong></td>
+<td>8.1 minimo</td>
+</tr>
+<tr>
+<td><strong>Tecnologie</strong></td>
+<td>Angular, PHP, AJAX (modulo Dolibarr)</td>
+</tr>
+<tr>
+<td><strong>Dipendenze modulo</strong></td>
+<td>Nessun altro modulo obbligatorio per il descrittore</td>
+</tr>
+<tr>
+<td><strong>Aggiornamenti</strong></td>
+<td>Secondo le condizioni d’acquisto su DoliStore</td>
+</tr>
+</table>
+
+<h3>Installazione e configurazione</h3>
+
+<p><strong>Opzione 1: Hosting cloud (Ma Gestion Cloud)</strong></p>
+<p>Affida l’hosting di Dolibarr a Ma Gestion Cloud: backup, aggiornamenti e supporto. Verifica con noi quali moduli Aplose sono inclusi nel tuo piano.</p>
+<p><strong><a href="https://aplose.ma-gestion-cloud.fr/custom/sellyoursaas/myaccount/register.php?origin=dolistore">👉 Crea un account Ma Gestion Cloud</a></strong></p>
+
+<p><strong>Opzione 2: Installazione manuale</strong></p>
+<ol>
+<li>Scarica il modulo da DoliStore</li>
+<li>Distribuiscilo sotto <code>htdocs/custom/dolicarbon</code></li>
+<li>Attiva il modulo nella configurazione Dolibarr</li>
+<li>Imposta le opzioni (promemoria in validazione, import automatico fattura fornitore) nella pagina di configurazione del modulo</li>
+<li>Assegna i permessi DoliCarbon ai gruppi utenti</li>
+</ol>
+
+<h3>Supporto</h3>
+
+<p>Contattaci per domande su DoliCarbon o sull’hosting Dolibarr.</p>
+
+<p><strong>Contatti</strong></p>
+<ul>
+<li>Email: contact@aplose.fr</li>
+<li>Sito web: <a href="https://www.ma-gestion-cloud.fr">www.ma-gestion-cloud.fr</a></li>
+<li>Editore: <a href="https://www.aplose.fr">www.aplose.fr</a></li>
+</ul>
+
+<h3>🚀 Ma Gestion Cloud - Dolibarr pronto all’uso</h3>
+
+<p><strong>Perché gestire server e backup in proprio se puoi concentrarti sul business?</strong></p>
+
+<p>Ma Gestion Cloud propone istanze Dolibarr ospitate, con backup e supporto. Formule e moduli inclusi (inclusi i moduli Aplose) dipendono dall’abbonamento: chiedici una proposta per DoliCarbon e per la tua organizzazione.</p>
+
+<p><strong>Esempi di vantaggi cloud:</strong></p>
+<ul>
+<li><strong>Dolibarr</strong>: ERP &amp; CRM</li>
+<li><strong>Moduli Aplose</strong>: secondo piano (possibilità di includere DoliCarbon)</li>
+<li><strong>Supporto tecnico</strong>: assistenza tramite ticket</li>
+<li><strong>Backup</strong>: secondo policy dell’offerta</li>
+</ul>
+
+<p><strong>Vantaggi spesso richiesti:</strong></p>
+<ul>
+<li>✅ <strong>Meno onere IT</strong>: hosting e manutenzione lato fornitore</li>
+<li>✅ <strong>Accesso remoto</strong>: utilizzo dal browser</li>
+<li>✅ <strong>Accompagnamento</strong>: team esperto dell’ecosistema Dolibarr</li>
+</ul>
+
+<p><strong><a href="https://aplose.ma-gestion-cloud.fr/custom/sellyoursaas/myaccount/register.php?origin=dolistore">👉 Richiedi una prova o un’istanza su Ma Gestion Cloud</a></strong></p>
+
+<h3>Informazioni su Ma Gestion Cloud / Aplose</h3>
+
+<p>Ma Gestion Cloud accompagna le aziende su Dolibarr (hosting, moduli, consulenza). Aplose sviluppa moduli professionali per estendere Dolibarr.</p>
+
+<p><strong>Link utili:</strong></p>
+<ul>
+<li><a href="https://www.ma-gestion-cloud.fr">Sito Ma Gestion Cloud</a></li>
+<li><a href="mailto:contact@aplose.fr">Contatta il team</a></li>
+<li><a href="https://www.aplose.fr">Sito Aplose</a></li>
+</ul>

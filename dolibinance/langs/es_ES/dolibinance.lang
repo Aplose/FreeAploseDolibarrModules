@@ -1,0 +1,79 @@
+# Módulo etiqueta 'ModuleDoliBinanceName'
+ModuleDoliBinanceName = DoliBinance
+# Descripción del módulo 'ModuleDoliBinanceDesc'
+ModuleDoliBinanceDesc = DoliBinance es un módulo simple que agrega la posibilidad de recibir pagos en Bitcoin u otras criptomonedas aceptadas por Binance en Dolibarr.<br>La página de pago mostrará al cliente la dirección de su billetera de BTC u otra criptomoneda, junto con un formulario para que ingrese el identificador de la transacción que realizará a través de su método preferido (directo, a través de una plataforma, etc...).<br>La factura se marcará como "pagada" cuando la transacción se valide en la cadena de bloques (requiere una tarea automatizada de Dolibarr: se requiere la activación de cron).
+
+#
+# Diccionario de direcciones de depósito de criptomonedas
+#
+CryptoDepositAddresses=Directorio de direcciones de pago de Binance
+
+#
+# Página de administración
+#
+DoliBinanceSetup = Configuración de DoliBinance
+Settings = Configuración
+DoliBinanceSetupPage = Página de configuración de DoliBinance
+DOLIBINANCE_CREATE_ACCOUNT_LINK = Si aún no tienes una cuenta en Binance, utiliza este enlace:
+DOLIBINANCE_CURRENT_BTC_PRICE = Precio promedio de Bitcoin en las últimas 24 horas (fuente: Binance)
+DOLIBINANCE_GENERATE_PAYMENT_IN_MAIN_CURRENCY = ¿Generar un pago en la moneda principal en la factura?
+DOLIBINANCE_BTC_WALLET_ADDRESS = Dirección de la billetera de Bitcoin
+DOLIBINANCE_BTC_WALLET_ADDRESSTooltip = Ingresa aquí la dirección de tu billetera de Bitcoin para recibir los pagos de tus clientes.
+DOLIBINANCE_API_KEY = Clave de API de Binance
+DOLIBINANCE_API_KEYToolTip = Ingresa aquí la clave de API de Binance creada para Dolibarr. Más información <A HREF="https://www.binance.com/en-BH/support/faq/how-to-create-api-360002502072">aquí</A>.
+DOLIBINANCE_API_SECRET = Clave secreta de API de Binance
+DOLIBINANCE_API_SECRETToolTip = Ingresa aquí la parte secreta de la clave de API de Binance.
+network = Red
+
+#
+# Página de información
+#
+About = Documentación / Acerca de
+DoliBinanceAbout = Acerca de DoliBinance y Documentación
+DoliBinanceAboutPage = DoliBinance fue desarrollado por Aplose (https://www.aplose.fr) y es mantenido por Olivier ANDRADE SANCHEZ (<A HREF="mailto:oandrade@aplose.fr">oandrade@aplose.fr</A>).
+
+# Nuevo pago
+DoliBinancePaymentButton = Pago de criptomonedas por DoliBinance
+DoliBinanceCryptoChoice = Por favor, elige tu criptomoneda para pagar esta factura: 
+DoliBinanceNextStep = Siguiente paso ->
+DoliBinanceStorePayment = Registrar tu pago
+DoliBinancePaymentStoredMessage = Tu pago ha sido registrado. Después de la verificación (de 1 a 10 minutos, dependiendo de la red blockchain elegida), tu pago se hará efectivo. Puedes cerrar esta pantalla.
+DoliBinancePaymentStored = Pago registrado
+DoliBinanceYouPayWith = Estás pagando con: 
+DoliBinanceOnTheNetWork = En la red: 
+DoliBinanceAddress = La dirección a utilizar para tu transacción en la cadena de bloques es: 
+DoliBinanceAmmount = El monto a pagar (según el precio promedio en las últimas 24 horas proporcionado por Binance) es: 
+DoliBinanceWarning = Advertencia: asegúrate de respetar la dirección y la red para tu envío, ya que no se puede deshacer una transacción enviada a una dirección o red incorrecta.
+DoliBinanceAskForPayment = Ahora, por favor, utiliza tu método de pago habitual para enviar tus criptomonedas a la dirección de arriba.
+DoliBinanceTransaction = Tu identificador de transacción (si ya lo has realizado):
+DoliBinanceFromAddress = La dirección desde la cual has enviado o enviarás tus criptomonedas (obligatorio):
+DoliBinanceTransactionDisplay = El identificador de transacción registrado es: 
+DoliBinanceFromAddressDisplay = La dirección de envío registrada es: 
+
+#
+# Página de lista de activos
+#
+DoliBinanceAssetList = Contenido de tu billetera Binance Spot
+DoliBinanceWallet = Billetera Binance
+
+#
+# Página de historial de depósitos
+#
+DoliBinanceDepositHistory = Historial de depósitos en tu billetera
+ToAddress = Dirección de destino
+FromAddress = Dirección de origen
+TransactionHash = Identificación de transacción
+Asset = Activo
+Network = Red
+
+#
+# Página de ejemplo
+#
+DoliBinanceArea = Inicio de DoliBinance
+MyPageName = Nombre de mi página
+
+#
+# Widget de ejemplo
+#
+MyWidget = Mi widget
+MyWidgetDescription = Descripción de mi widget

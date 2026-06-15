@@ -1,0 +1,53 @@
+# Copyright (C) 2023 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleBackMyModulesName'
+ModuleBackMyModulesName = BackMyModules
+# Module description 'ModuleBackMyModulesDesc'
+ModuleBackMyModulesDesc = BackMyModules vous permet de créer une archive zip de tous les modules complémentaires de votre Dolibarr presents dans le répertoire /custom/ et de le télécharger. Vous pouvez aussi supprimer les modules désactivés.
+
+#
+# Admin page
+#
+BackMyModulesSetup = BackMyModules
+BackMyModulesTab = BackMyModules
+BackMyModulesSetupPage = Page BackMyModules
+BackMyModulesAboutToDeleteMessage = Vous êtes sur le point de supprimer le module complémentaire : 
+BackMyModulesAboutToDeleteMessage2 = Si vous êtes certain de cette action merci de confirmer ou annuler :
+BackMyModulesConfirmButton = Confirmer
+BackMyModulesCancelButton = Annuler
+BackMyModulesCreateZipButton = Créer un zip des modules complémentaires (présents dans /custom/)
+BackMyModulesDownloadZipLink = Télécharger l'archive BackupMyModules
+BackMyModulesDeleteArrayTitle = Supression des modules complémentaires désactivés
+BackMyModulesDeleteArrayWarningMessage = Attention, cette action est irréversible. Si vous n'avez pas de sauvegarde, par sécurité, le répertoire contenant les données du module n'est pas supprimé, donc, faites un BackupMyModules avant ;-)
+BackMyModulesDeleteArrayTh1 = Nom du module
+BackMyModulesDeleteArrayTh2 = Activé ?
+BackMyModulesDeleteArrayTh3 = Action de supression
+BackMyModulesDeleteArrayTd1 = Actif
+BackMyModulesDeleteArrayTd2 = Action de supression non disponible
+BackMyModulesDeleteArrayTd3 = Désactivé
+BackMyModulesDeleteArrayTd4 = Supression immédiate et irréversible
+
+
+#
+# About page
+#
+BackMyModulesAboutTab = Aide
+BackMyModulesAbout = Aide BackMyModules
+BackMyModulesAboutPage = Page d'aide BackMyModules
