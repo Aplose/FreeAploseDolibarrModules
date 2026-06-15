@@ -120,7 +120,7 @@ If you're not sure where to start, just open a discussion or drop us a line at [
 
 Most modules are developed and maintained by the Aplose team. Some are generous contributions from the community, published here with their authors' permission:
 
-- **bankimportapi** — developed by `<author name / link to fill in>`, published with their kind authorization.
+- **bankimportapi** — developed by `Florian Dufourg`, published with his kind authorization.
 
 Want your module listed here? See [Contributing](#contributing).
 
