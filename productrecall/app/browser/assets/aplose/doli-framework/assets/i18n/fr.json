@@ -1,0 +1,353 @@
+{
+  "COMMON": {
+    "LOADING": "Chargement...",
+    "SAVE": "Enregistrer",
+    "CANCEL": "Annuler",
+    "DELETE": "Supprimer",
+    "EDIT": "Modifier",
+    "CLOSE": "Fermer",
+    "CONFIRM": "Confirmer",
+    "YES": "Oui",
+    "NO": "Non",
+    "BACK": "Retour",
+    "NEXT": "Suivant",
+    "PREVIOUS": "Précédent",
+    "SEARCH": "Rechercher",
+    "FILTER": "Filtrer",
+    "SORT": "Trier",
+    "LOGIN": "Se connecter",
+    "REGISTER": "S'inscrire",
+    "REQUIRED_FIELD": "Champ requis",
+    "INVALID_EMAIL": "Email invalide",
+    "INVALID_PHONE": "Numéro de téléphone invalide",
+    "ERROR": "Erreur",
+    "SUCCESS": "Succès",
+    "WARNING": "Attention",
+    "INFO": "Information",
+    "OK": "OK"
+  },
+  "LOGIN": {
+    "TITLE": "Connexion",
+    "FIELDS": {
+      "USERNAME": "Identifiant",
+      "USERNAME_PLACEHOLDER": "Votre identifiant",
+      "USERNAME_REQUIRED": "L'identifiant est requis",
+      "PASSWORD": "Mot de passe",
+      "PASSWORD_PLACEHOLDER": "Votre mot de passe",
+      "PASSWORD_REQUIRED": "Le mot de passe est requis"
+    },
+    "BUTTONS": {
+      "LOGIN": "Se connecter"
+    },
+    "ERRORS": {
+      "DEFAULT": "Erreur lors de la connexion"
+    },
+    "NO_ACCOUNT": "Vous n'avez pas encore de compte ?",
+    "REGISTER_LINK": "Inscrivez-vous",
+    "FORGOT_PASSWORD": "Mot de passe oublié ?",
+    "LOST_PASSWORD_LINK": "Réinitialiser le mot de passe"
+  },
+  "REGISTER": {
+    "TITLE": "Inscription",
+    "PERSONAL_INFO": "Informations personnelles",
+    "COMPANY_INFO": "Informations professionnelles",
+    "ADDRESS": "Adresse",
+    "FIELDS": {
+      "USER_TYPE": "Type d'utilisateur",
+      "INDIVIDUAL": "Particulier",
+      "PROFESSIONAL": "Professionnel",
+      "CIVILITY": "Civilité",
+      "SELECT_CIVILITY": "Sélectionnez une civilité",
+      "CIVILITY_REQUIRED": "La civilité est requise",
+      "FIRSTNAME": "Prénom",
+      "FIRSTNAME_REQUIRED": "Le prénom est requis",
+      "LASTNAME": "Nom",
+      "LASTNAME_REQUIRED": "Le nom est requis",
+      "EMAIL": "Email",
+      "EMAIL_REQUIRED": "L'email est requis",
+      "LOGIN": "Identifiant",
+      "LOGIN_REQUIRED": "L'identifiant est requis",
+      "PASSWORD": "Mot de passe",
+      "PASSWORD_REQUIRED": "Le mot de passe est requis",
+      "PASSWORD_CONFIRM": "Confirmation du mot de passe",
+      "PASSWORD_CONFIRM_REQUIRED": "La confirmation du mot de passe est requise",
+      "TOGGLE_PASSWORD_VISIBILITY": "Afficher/Masquer le mot de passe",
+      "PHONE_PREFIX": "Indicatif",
+      "PHONE_NUMBER": "Numéro de téléphone",
+      "PHONE_INVALID": "Numéro de téléphone invalide",
+      "COMPANY": "Société",
+      "COMPANY_REQUIRED": "La société est requise",
+      "SIRET": "SIRET",
+      "SIRET_REQUIRED": "Le numéro SIRET est requis",
+      "LEGAL_FORM": "Forme juridique",
+      "SELECT_LEGAL_FORM": "Sélectionnez une forme juridique",
+      "LEGAL_FORM_REQUIRED": "La forme juridique est requise",
+      "ACTIVITY_TYPE": "Type d'activité",
+      "SELECT_ACTIVITY_TYPE": "Sélectionnez un type d'activité",
+      "ACTIVITY_TYPE_REQUIRED": "Le type d'activité est requis",
+      "EFFECTIF": "Effectif",
+      "SELECT_EFFECTIF": "Sélectionnez un effectif",
+      "EFFECTIF_REQUIRED": "L'effectif est requis",
+      "ADDRESS": "Adresse",
+      "ADDRESS_REQUIRED": "L'adresse est requise",
+      "ZIP": "Code postal",
+      "ZIP_PLACEHOLDER": "Ex: 75001",
+      "ZIP_REQUIRED": "Le code postal est requis",
+      "TOWN": "Ville",
+      "TOWN_PLACEHOLDER": "Ex: Paris",
+      "TOWN_REQUIRED": "La ville est requise",
+      "COUNTRY": "Pays",
+      "SELECT_COUNTRY": "Sélectionnez un pays",
+      "COUNTRY_REQUIRED": "Le pays est requis"
+    },
+    "VALIDATION": {
+      "TITLE": "Validation du compte",
+      "DESCRIPTION": "Un code de validation vous a été envoyé par email. Veuillez le saisir ci-dessous pour activer votre compte.",
+      "CODE": "Code de validation",
+      "CODE_REQUIRED": "Le code de validation est requis"
+    },
+    "ERRORS": {
+      "LOGIN_FORMAT": "L'identifiant doit contenir uniquement des lettres minuscules",
+      "LOGIN_TAKEN": "Cet identifiant est déjà utilisé",
+      "LOGIN_CHECK_FAILED": "Erreur lors de la vérification de l'identifiant",
+      "REGISTRATION": "Erreur lors de l'inscription",
+      "VALIDATION": "Erreur lors de la validation du compte",
+      "PASSWORDS_NOT_MATCH": "Les mots de passe ne correspondent pas",
+      "UPPERCASE": "Le mot de passe doit contenir au moins {{count}} lettre majuscule",
+      "NUMBERS": "Le mot de passe doit contenir au moins {{count}} chiffre(s)",
+      "SPECIAL": "Le mot de passe doit contenir au moins {{count}} caractère(s) spécial(s)",
+      "AMBIGUOUS": "Le mot de passe ne doit pas contenir de caractère(s) ambigus",
+      "MIN_LENGTH": "Le mot de passe doit contenir au moins {{count}} caractères"
+    },
+    "BUTTONS": {
+      "REGISTER": "S'inscrire",
+      "VALIDATE": "Valider"
+    },
+    "ALREADY_HAVE_ACCOUNT": "Vous avez déjà un compte ?",
+    "LOGIN_LINK": "Connectez-vous",
+    "CHECK_EMAIL": "Veuillez vérifier votre email pour valider votre compte",
+    "ENTER_ACTIVATION_CODE": "J'ai déjà un code d'activation"
+  },
+  "LOST_PASSWORD": {
+    "TITLE": "Mot de passe oublié",
+    "FIELDS": {
+      "USERNAME": "Identifiant ou Email",
+      "USERNAME_PLACEHOLDER": "Entrez votre identifiant ou email",
+      "USERNAME_REQUIRED": "L'identifiant ou l'email est requis"
+    },
+    "BUTTONS": {
+      "SUBMIT": "Réinitialiser le mot de passe"
+    },
+    "SUCCESS_MESSAGE": "Un email contenant les instructions de réinitialisation a été envoyé à votre adresse email.",
+    "ERRORS": {
+      "DEFAULT": "Une erreur est survenue lors de la demande de réinitialisation"
+    },
+    "REMEMBER_PASSWORD": "Vous vous souvenez de votre mot de passe ?",
+    "LOGIN_LINK": "Se connecter"
+  },
+  "MENU": {
+    "HOME": "Accueil",
+    "MAP": "Carte",
+    "CATALOG": "Catalogue",
+    "CALENDAR": "Mes Formations",
+    "LOGIN": "Se connecter",
+    "REGISTER": "S'enregistrer",
+    "AVAILABILITY": {
+      "SCHEDULE": "Gérer vos disponibilités"
+    },
+    "VIDEO_MEETING": {
+      "TITLE": "Vidéo-conférence"
+    },
+    "APPOINTMENT": {
+      "BOOK": "Réserver un rendez-vous",
+      "BOOK_VIDEO": "Réserver en visio"
+    },
+    "CUSTOMERS": {
+      "TITLE": "Clients",
+      "LIST": "Liste",
+      "NEW": "Nouveau client"
+    },
+    "PRODUCTS_SERVICES": {
+      "TITLE": "Produits & Services",
+      "LIST": "Liste",
+      "NEW": "Nouveau produit & service"
+    },
+    "SUBSCRIPTIONS": {
+      "TITLE": "Abonnements",
+      "LIST": "Liste",
+      "NEW": "Nouvel abonnement"
+    },
+    "INVOICES": {
+      "TITLE": "Factures",
+      "LIST": "Liste",
+      "NEW": "Nouvelle facture"
+    },
+    "PAYMENTS": {
+      "TITLE": "Paiements",
+      "LIST": "Liste",
+      "NEW": "Nouveau paiement"
+    },
+    "ADMIN": {
+      "TITLE": "Administration",
+      "CATALOG": {
+        "TITLE": "Configuration catalogue",
+        "SETTINGS": "Paramètres",
+        "NAVIGATION": "Navigation",
+        "FILTERS": "Filtres"
+      }
+    },
+    "CLEAN_CACHE": "Nettoyage cache",
+    "SETTINGS": "Paramètres",
+    "PROFILE": "Profil",
+    "ABOUT": "À propos",
+    "PROPOSAL_VALIDATION": "Devis à valider",
+    "PROPOSALS": "Liste Devis",
+    "SERVICES": "Vos services",
+    "USER_SETTINGS": "Paramètres utilisateur"
+  },
+  "SETTINGS": {
+    "TITLE": "Paramètres",
+    "NOTIFICATIONS": "Notifications",
+    "RESET_SUCCESS": "Paramètres réinitialisés avec succès",
+    "RESET_ERROR": "Erreur lors de la réinitialisation des paramètres",
+    "SAVED_SUCCESS": "Paramètres enregistrés avec succès",
+    "SAVED_ERROR": "Erreur lors de l'enregistrement des paramètres"
+  },
+  "USER_SETTINGS": {
+    "TITLE": "Paramètres utilisateur",
+    "SUBTITLE": "Personnalisez votre expérience utilisateur",
+    "SAVE": "Enregistrer",
+    "RESET": "Réinitialiser",
+    "SAVE_ERROR": "Erreur lors de l'enregistrement des paramètres",
+    "LANGUAGE": {
+      "TITLE": "Langue",
+      "DESCRIPTION": "Choisissez la langue d'affichage de l'interface",
+      "SELECT_LABEL": "Sélectionner la langue",
+      "REQUIRED": "La sélection de la langue est obligatoire"
+    },
+    "THEME": "Thème",
+    "NOTIFICATIONS": "Notifications",
+    "RESET_SUCCESS": "Paramètres réinitialisés avec succès",
+    "RESET_ERROR": "Erreur lors de la réinitialisation des paramètres",
+    "SAVED_SUCCESS": "Paramètres enregistrés avec succès",
+    "SAVED_ERROR": "Erreur lors de l'enregistrement des paramètres"
+  },
+  "AVAILABILITY": {
+    "TITLE": "Gestion des disponibilités",
+    "DAYS": {
+      "MONDAY": "Lundi",
+      "TUESDAY": "Mardi",
+      "WEDNESDAY": "Mercredi",
+      "THURSDAY": "Jeudi",
+      "FRIDAY": "Vendredi",
+      "SATURDAY": "Samedi",
+      "SUNDAY": "Dimanche"
+    },
+    "FORM": {
+      "ACTIVE": "Actif",
+      "START_TIME": "Heure début",
+      "END_TIME": "Heure fin",
+      "SLOT_DURATION": "Durée créneau (min)",
+      "BREAK_BETWEEN": "Pause entre créneaux (min)",
+      "LUNCH_BREAK_START": "Début pause déjeuner",
+      "LUNCH_BREAK_END": "Fin pause déjeuner",
+      "SAVE": "Enregistrer"
+    },
+    "MESSAGES": {
+      "LOAD_ERROR": "Erreur lors du chargement des disponibilités",
+      "UPDATE_SUCCESS": "Disponibilités mises à jour",
+      "UPDATE_ERROR": "Erreur lors de la mise à jour"
+    }
+  },
+  "APPOINTMENT": {
+    "STEP1": "Sélection du professionnel",
+    "STEP2": "Sélection du service",
+    "STEP3": "Sélection de la date et l'heure",
+    "SELECT_PROFESSIONAL": "Choisissez un professionnel",
+    "SELECT_SERVICE": "Choisissez un service",
+    "SELECT_DATE": "Choisissez une date",
+    "SELECT_TIME": "Choisissez une heure",
+    "BOOK": "Réserver",
+    "LOGIN_REQUIRED": "Connexion requise",
+    "LOGIN_MESSAGE": "Veuillez vous connecter ou vous inscrire pour réserver un rendez-vous",
+    "USE_LOCATION": "Rechercher à proximité",
+    "RADIUS_LABEL": "Rayon de recherche (km)",
+    "MEETING_TYPE": {
+      "LABEL": "Type de rendez-vous",
+      "BOTH": "Présentiel et visio",
+      "PHYSICAL": "Présentiel uniquement",
+      "VIDEO": "Visio uniquement"
+    },
+    "FILTERS": {
+      "TITLE": "Filtres de recherche",
+      "LOCATION": "Localisation",
+      "MEETING_TYPE": "Type de rendez-vous",
+      "NEAR_ME": "Proche de chez vous"
+    },
+    "BOOK_VIDEO": "Réserver en visio"
+  },
+  "CATALOG": {
+    "TITLE": "Catalogue",
+    "PAGE": "Page",
+    "SEARCH": "Filtrer",
+    "FILTERS": {
+      "TITLE": "Filtres",
+      "RESET": "Réinitialiser",
+      "APPLY": "Appliquer"
+    }
+  },
+  "PROPOSALS": {
+    "TITLE": "Liste des devis",
+    "NO_PROPOSALS": "Vous n'avez pas de devis pour le moment",
+    "REF": "Réf.",
+    "CLIENT_NAME": "Nom",
+    "DATE": "Date",
+    "TOTAL_HT": "Tot. HT",
+    "TOTAL_TVA": "Tot. TVA",
+    "TOTAL_TTC": "Tot. TTC",
+    "NOT_LOGGED_IN": "Vous devez être enregistré et connecté pour voir vos devis",
+    "ACTIONS": {
+      "DOWNLOAD": "Télécharger le devis"
+    }
+  },
+  "PROPOSAL_VALIDATION": {
+    "TITLE": "Validation de la demande de devis",
+    "EMPTY_PROPOSAL": "Votre devis est vide",
+    "IMAGE": "Image",
+    "NAME": "Nom",
+    "QUANTITY": "Quantité",
+    "PROPOSAL_NAME": "Nom de votre devis",
+    "VALIDATE_BUTTON": "Valider le devis",
+    "ERRORS": {
+      "NAME_REQUIRED": "Le nom du devis est requis",
+      "NAME_MIN_LENGTH": "Le nom du devis doit contenir au moins 3 caractères"
+    },
+    "NOT_LOGGED_IN": "Vous devez être enregistré et connecté pour valider un devis"
+  },
+  "CALENDAR": {
+    "VIEWS": {
+      "PLANNING": "Planning",
+      "MONTH": "Mois"
+    },
+    "ACTIONS": {
+      "PREV": "Précédent",
+      "NEXT": "Suivant",
+      "TODAY": "Aujourd'hui"
+    }
+  },
+  "PRODUCT": {
+    "SUCCESS_MODAL": {
+      "PRODUCTS_ADDED_TITLE": "Produits ajoutés au devis",
+      "PRODUCT_ADDED_TITLE": "Produit ajouté au devis"
+    }
+  },
+  "LANGUAGE": {
+    "TITLE": "Langue",
+    "LANGUAGE_SELECTION": "Sélection de langue",
+    "CURRENT_LANGUAGE": "Langue actuelle",
+    "CHANGE_LANGUAGE": "Changer de langue",
+    "LANGUAGE_UPDATED": "Langue mise à jour",
+    "LANGUAGE_NOT_SUPPORTED": "Langue non supportée",
+    "DESCRIPTION": "Choisissez la langue d'affichage de l'interface"
+  }
+}

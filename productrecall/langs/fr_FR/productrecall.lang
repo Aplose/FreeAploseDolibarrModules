@@ -1,0 +1,50 @@
+#
+# Module
+#
+ModuleProductRecallName = Rappels Produits
+ModuleProductRecallDesc = Intégration et notification des rappels produits du site officiel français RappelConso
+#
+# Admin page
+#
+MyModuleSetup = Paramètres ProductRecall
+Settings = Paramètres
+MyModuleSetupPage = Page de paramétrage ProductRecall
+PRODUCTRECALL_PARAM_NOTIF_EMAIL = Email(s) à notifier des alertes produits (séparés par des virgules si plusieurs)
+PRODUCTRECALL_PARAM_CAT_TO_FOLLOW = Catégories à suivre en alerte (comprends toutes les sous-catégories) 
+PRODUCTRECALL_PARAM_SUB_CAT_TO_FOLLOW = Sous-catégories à suivre en alerte (plus fin que la catégorie) 
+#
+# About page
+#
+About = Documentation
+MyModuleAbout = Documentation ProductRecall
+MyModuleAboutPage = Page de documentation ProductRecall
+#
+# ProductRecall Widget
+#
+ProductRecallWidget1 = Widget ProductRecall
+ProductRecallWidget1Description = Les %s derniers rappels produits
+#
+# ProductRecall List Page
+#
+ProductRecalls=Rappels produits
+#
+# Recall object
+#
+Recall=Rappel
+Recalls=Rappels
+#
+# Product Recalls Tab
+#
+ProductRecallAlertsForProduct=Alertes de rappels pour ce produit
+NoRecallsFoundForThisProduct=Aucun rappel trouvé pour ce produit
+ImportantInformation=Information importante
+ProductRecallAlertInfo=Si des rappels sont affichés ci-dessus, veuillez consulter les détails et prendre les mesures appropriées. Contactez les numéros indiqués pour plus d'informations.
+Reference=Référence
+ProductModelOrRef=Modèle ou référence du produit
+Brand=Marque
+Category=Catégorie
+RecallReason=Motif du rappel
+RisksForConsumer=Risques pour le consommateur
+PublicationDate=Date de publication
+ContactNumber=Numéro de contact
+NoRef=Pas de référence

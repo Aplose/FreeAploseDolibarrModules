@@ -1,0 +1,50 @@
+#
+# ModuleModuleProductRecallDesc
+#
+ModuleProductRecallName = ProductRecall
+ModuleProductRecallDesc = Get product recall from french gouvernment website "RappelConso"
+#
+# Admin page
+#
+ProductRecallSetup = ProductRecall setup
+Settings = Settings
+ProductRecallSetupPage = ProductRecall setup page
+PRODUCTRECALL_PARAM_NOTIF_EMAIL = Email(s) to be notified by ProductRecall alerts (comma separated values if several)
+PRODUCTRECALL_PARAM_CAT_TO_FOLLOW = Categories to follow 
+PRODUCTRECALL_PARAM_SUB_CAT_TO_FOLLOW = Sub-categories to follow 
+#
+# About page
+#
+About = Documentation
+ProductRecallAbout = ProductRecall documentation
+ProductRecallAboutPage = ProductRecall documentation page
+#
+# ProductRecall Widget
+#
+ProductRecallWidget1 = Widget ProductRecall
+ProductRecallWidget1Description = The last %s Product Recalls
+#
+# ProductRecall List Page
+#
+ProductRecalls=Products recalls
+#
+# Recall object
+#
+Recall=Recall
+Recalls=Recalls
+#
+# Product Recalls Tab
+#
+ProductRecallAlertsForProduct=Product recall alerts for this product
+NoRecallsFoundForThisProduct=No recalls found for this product
+ImportantInformation=Important Information
+ProductRecallAlertInfo=If recalls are displayed above, please review the details and take appropriate action. Contact the indicated numbers for more information.
+Reference=Reference
+ProductModelOrRef=Product model or reference
+Brand=Brand
+Category=Category
+RecallReason=Recall reason
+RisksForConsumer=Risks for consumer
+PublicationDate=Publication date
+ContactNumber=Contact number
+NoRef=No reference

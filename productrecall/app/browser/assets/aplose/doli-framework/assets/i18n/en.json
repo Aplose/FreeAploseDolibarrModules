@@ -1,0 +1,327 @@
+{
+  "COMMON": {
+    "LOADING": "Loading...",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "DELETE": "Delete",
+    "EDIT": "Edit",
+    "CLOSE": "Close",
+    "CONFIRM": "Confirm",
+    "YES": "Yes",
+    "NO": "No",
+    "BACK": "Back",
+    "NEXT": "Next",
+    "PREVIOUS": "Previous",
+    "SEARCH": "Search",
+    "FILTER": "Filter",
+    "SORT": "Sort",
+    "LOGIN": "Login",
+    "REGISTER": "Register",
+    "REQUIRED_FIELD": "Required field",
+    "INVALID_EMAIL": "Invalid email",
+    "INVALID_PHONE": "Invalid phone number",
+    "ERROR": "Error",
+    "SUCCESS": "Success",
+    "WARNING": "Warning",
+    "INFO": "Information",
+    "OK": "OK"
+  },
+  "LOGIN": {
+    "TITLE": "Login",
+    "FIELDS": {
+      "USERNAME": "Username",
+      "USERNAME_PLACEHOLDER": "Your username",
+      "USERNAME_REQUIRED": "Username is required",
+      "PASSWORD": "Password",
+      "PASSWORD_PLACEHOLDER": "Your password",
+      "PASSWORD_REQUIRED": "Password is required"
+    },
+    "BUTTONS": {
+      "LOGIN": "Login"
+    },
+    "ERRORS": {
+      "DEFAULT": "Error during login"
+    },
+    "NO_ACCOUNT": "Don't have an account yet?",
+    "REGISTER_LINK": "Register",
+    "FORGOT_PASSWORD": "Forgot password?",
+    "LOST_PASSWORD_LINK": "Reset password"
+  },
+  "REGISTER": {
+    "TITLE": "Register",
+    "PERSONAL_INFO": "Personal information",
+    "COMPANY_INFO": "Professional information",
+    "ADDRESS": "Address",
+    "FIELDS": {
+      "USER_TYPE": "User type",
+      "INDIVIDUAL": "Individual",
+      "PROFESSIONAL": "Professional",
+      "CIVILITY": "Civility",
+      "SELECT_CIVILITY": "Select a civility",
+      "CIVILITY_REQUIRED": "Civility is required",
+      "FIRSTNAME": "First name",
+      "FIRSTNAME_REQUIRED": "First name is required",
+      "LASTNAME": "Last name",
+      "LASTNAME_REQUIRED": "Last name is required",
+      "EMAIL": "Email",
+      "EMAIL_REQUIRED": "Email is required",
+      "LOGIN": "Username",
+      "LOGIN_REQUIRED": "Username is required",
+      "PASSWORD": "Password",
+      "PASSWORD_REQUIRED": "Password is required",
+      "PASSWORD_CONFIRM": "Password confirmation",
+      "PASSWORD_CONFIRM_REQUIRED": "Password confirmation is required",
+      "TOGGLE_PASSWORD_VISIBILITY": "Show/Hide password",
+      "PHONE_PREFIX": "Prefix",
+      "PHONE_NUMBER": "Phone number",
+      "PHONE_INVALID": "Invalid phone number",
+      "COMPANY": "Company",
+      "COMPANY_REQUIRED": "Company is required",
+      "SIRET": "SIRET",
+      "SIRET_REQUIRED": "SIRET number is required",
+      "LEGAL_FORM": "Legal form",
+      "SELECT_LEGAL_FORM": "Select a legal form",
+      "LEGAL_FORM_REQUIRED": "Legal form is required",
+      "ACTIVITY_TYPE": "Activity type",
+      "SELECT_ACTIVITY_TYPE": "Select an activity type",
+      "ACTIVITY_TYPE_REQUIRED": "Activity type is required",
+      "EFFECTIF": "Workforce",
+      "SELECT_EFFECTIF": "Select workforce",
+      "EFFECTIF_REQUIRED": "Workforce is required",
+      "ADDRESS": "Address",
+      "ADDRESS_REQUIRED": "Address is required",
+      "ZIP": "Zip code",
+      "ZIP_PLACEHOLDER": "Ex: 75001",
+      "ZIP_REQUIRED": "Zip code is required",
+      "TOWN": "City",
+      "TOWN_PLACEHOLDER": "Ex: Paris",
+      "TOWN_REQUIRED": "City is required",
+      "COUNTRY": "Country",
+      "SELECT_COUNTRY": "Select a country",
+      "COUNTRY_REQUIRED": "Country is required"
+    },
+    "VALIDATION": {
+      "TITLE": "Account validation",
+      "DESCRIPTION": "A validation code has been sent to you by email. Please enter it below to activate your account.",
+      "CODE": "Validation code",
+      "CODE_REQUIRED": "Validation code is required"
+    },
+    "ERRORS": {
+      "LOGIN_FORMAT": "Username must contain only lowercase letters",
+      "LOGIN_TAKEN": "This username is already taken",
+      "LOGIN_CHECK_FAILED": "Error during username verification",
+      "REGISTRATION": "Error during registration",
+      "VALIDATION": "Error during account validation",
+      "PASSWORDS_NOT_MATCH": "Passwords do not match",
+      "UPPERCASE": "Password must contain at least {{count}} uppercase letter",
+      "NUMBERS": "Password must contain at least {{count}} number(s)",
+      "SPECIAL": "Password must contain at least {{count}} special character(s)",
+      "AMBIGUOUS": "Password must not contain ambiguous character(s)",
+      "MIN_LENGTH": "Password must contain at least {{count}} characters"
+    },
+    "BUTTONS": {
+      "REGISTER": "Register",
+      "VALIDATE": "Validate"
+    },
+    "ALREADY_HAVE_ACCOUNT": "Already have an account?",
+    "LOGIN_LINK": "Login",
+    "CHECK_EMAIL": "Please check your email to validate your account",
+    "ENTER_ACTIVATION_CODE": "I already have an activation code"
+  },
+  "LOST_PASSWORD": {
+    "TITLE": "Forgot password",
+    "FIELDS": {
+      "USERNAME": "Username or Email",
+      "USERNAME_PLACEHOLDER": "Enter your username or email",
+      "USERNAME_REQUIRED": "Username or email is required"
+    },
+    "BUTTONS": {
+      "SUBMIT": "Reset password"
+    },
+    "SUCCESS_MESSAGE": "An email containing reset instructions has been sent to your email address.",
+    "ERRORS": {
+      "DEFAULT": "An error occurred during the reset request"
+    },
+    "REMEMBER_PASSWORD": "Remember your password?",
+    "LOGIN_LINK": "Login"
+  },
+  "MENU": {
+    "HOME": "Home",
+    "MAP": "Map",
+    "CATALOG": "Catalog",
+    "CALENDAR": "My Training",
+    "LOGIN": "Login",
+    "REGISTER": "Register",
+    "AVAILABILITY": {
+      "SCHEDULE": "Manage your availability"
+    },
+    "VIDEO_MEETING": {
+      "TITLE": "Video conference"
+    },
+    "APPOINTMENT": {
+      "BOOK": "Book an appointment",
+      "BOOK_VIDEO": "Book video appointment"
+    },
+    "CUSTOMERS": {
+      "TITLE": "Customers",
+      "LIST": "List",
+      "NEW": "New customer"
+    },
+    "PRODUCTS_SERVICES": {
+      "TITLE": "Products & Services",
+      "LIST": "List",
+      "NEW": "New product & service"
+    },
+    "SUBSCRIPTIONS": {
+      "TITLE": "Subscriptions",
+      "LIST": "List",
+      "NEW": "New subscription"
+    },
+    "INVOICES": {
+      "TITLE": "Invoices",
+      "LIST": "List",
+      "NEW": "New invoice"
+    },
+    "PAYMENTS": {
+      "TITLE": "Payments",
+      "LIST": "List",
+      "NEW": "New payment"
+    },
+    "ADMIN": {
+      "TITLE": "Administration",
+      "CATALOG": {
+        "TITLE": "Catalog configuration",
+        "SETTINGS": "Settings",
+        "NAVIGATION": "Navigation",
+        "FILTERS": "Filters"
+      }
+    },
+    "CLEAN_CACHE": "Clear cache",
+    "SETTINGS": "Settings",
+    "PROFILE": "Profile",
+    "ABOUT": "About",
+    "PROPOSAL_VALIDATION": "Quotes to validate",
+    "PROPOSALS": "Quotes list",
+    "SERVICES": "Your services",
+    "USER_SETTINGS": "User settings"
+  },
+  "SETTINGS": {
+    "TITLE": "Settings",
+    "LANGUAGE": "Language",
+    "THEME": "Theme",
+    "NOTIFICATIONS": "Notifications",
+    "RESET_SUCCESS": "Settings reset successfully",
+    "RESET_ERROR": "Error resetting settings",
+    "SAVED_SUCCESS": "Settings saved successfully",
+    "SAVED_ERROR": "Error saving settings"
+  },
+  "AVAILABILITY": {
+    "TITLE": "Availability management",
+    "DAYS": {
+      "MONDAY": "Monday",
+      "TUESDAY": "Tuesday",
+      "WEDNESDAY": "Wednesday",
+      "THURSDAY": "Thursday",
+      "FRIDAY": "Friday",
+      "SATURDAY": "Saturday",
+      "SUNDAY": "Sunday"
+    },
+    "FORM": {
+      "ACTIVE": "Active",
+      "START_TIME": "Start time",
+      "END_TIME": "End time",
+      "SLOT_DURATION": "Slot duration (min)",
+      "BREAK_BETWEEN": "Break between slots (min)",
+      "LUNCH_BREAK_START": "Lunch break start",
+      "LUNCH_BREAK_END": "Lunch break end",
+      "SAVE": "Save"
+    },
+    "MESSAGES": {
+      "LOAD_ERROR": "Error loading availability",
+      "UPDATE_SUCCESS": "Availability updated",
+      "UPDATE_ERROR": "Error updating availability"
+    }
+  },
+  "APPOINTMENT": {
+    "STEP1": "Select professional",
+    "STEP2": "Select service",
+    "STEP3": "Select date and time",
+    "SELECT_PROFESSIONAL": "Choose a professional",
+    "SELECT_SERVICE": "Choose a service",
+    "SELECT_DATE": "Choose a date",
+    "SELECT_TIME": "Choose a time",
+    "BOOK": "Book",
+    "LOGIN_REQUIRED": "Login required",
+    "LOGIN_MESSAGE": "Please login or register to book an appointment",
+    "USE_LOCATION": "Search nearby",
+    "RADIUS_LABEL": "Search radius (km)",
+    "MEETING_TYPE": {
+      "LABEL": "Meeting type",
+      "BOTH": "In-person and video",
+      "PHYSICAL": "In-person only",
+      "VIDEO": "Video only"
+    },
+    "FILTERS": {
+      "TITLE": "Search filters",
+      "LOCATION": "Location",
+      "MEETING_TYPE": "Meeting type",
+      "NEAR_ME": "Near you"
+    },
+    "BOOK_VIDEO": "Book video appointment"
+  },
+  "CATALOG": {
+    "TITLE": "Catalog",
+    "PAGE": "Page",
+    "SEARCH": "Filter",
+    "FILTERS": {
+      "TITLE": "Filters",
+      "RESET": "Reset",
+      "APPLY": "Apply"
+    }
+  },
+  "PROPOSALS": {
+    "TITLE": "Quotes list",
+    "NO_PROPOSALS": "You don't have any quotes at the moment",
+    "REF": "Ref.",
+    "CLIENT_NAME": "Name",
+    "DATE": "Date",
+    "TOTAL_HT": "Total HT",
+    "TOTAL_TVA": "Total VAT",
+    "TOTAL_TTC": "Total TTC",
+    "NOT_LOGGED_IN": "You must be registered and logged in to see your quotes",
+    "ACTIONS": {
+      "DOWNLOAD": "Download quote"
+    }
+  },
+  "PROPOSAL_VALIDATION": {
+    "TITLE": "Quote request validation",
+    "EMPTY_PROPOSAL": "Your quote is empty",
+    "IMAGE": "Image",
+    "NAME": "Name",
+    "QUANTITY": "Quantity",
+    "PROPOSAL_NAME": "Your quote name",
+    "VALIDATE_BUTTON": "Validate quote",
+    "ERRORS": {
+      "NAME_REQUIRED": "Quote name is required",
+      "NAME_MIN_LENGTH": "Quote name must contain at least 3 characters"
+    },
+    "NOT_LOGGED_IN": "You must be registered and logged in to validate a quote"
+  },
+  "CALENDAR": {
+    "VIEWS": {
+      "PLANNING": "Planning",
+      "MONTH": "Month"
+    },
+    "ACTIONS": {
+      "PREV": "Previous",
+      "NEXT": "Next",
+      "TODAY": "Today"
+    }
+  },
+  "PRODUCT": {
+    "SUCCESS_MODAL": {
+      "PRODUCTS_ADDED_TITLE": "Products added to quote",
+      "PRODUCT_ADDED_TITLE": "Product added to quote"
+    }
+  }
+}
