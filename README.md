@@ -37,7 +37,7 @@ This is a **growing collection**: the modules listed below are only the first wa
 
 Load your bank movements without the copy-paste marathon. Feed the module a **CSV export** or connect it **straight to the Qonto API**, and it will help you create and settle the corresponding entries in Dolibarr.
 
-> 🙏 **Credit where it's due:** this module was developed by an external contributor and is published here with their kind permission. Thank you!
+> 🙏 **Credit where it's due:** this module was developed by Florian Dufourg and is published here with his kind permission. Thank you!
 
 - Import from CSV or live from Qonto
 - Create and pay the matching documents
