@@ -1,0 +1,106 @@
+# Translation file
+
+#
+# Generic
+#
+
+# Module label 'ModuleDoliLinksName'
+ModuleDoliLinksName = DoliLinks
+# Module description 'ModuleDoliLinksDesc'
+ModuleDoliLinksDesc = DoliLinks module description
+
+
+
+#
+# Administration page
+#
+DoliLinksSetup = DoliLinks setup
+Settings = Settings
+DoliLinksSetupPage = DoliLinks setup page
+NewSection = New section
+DOLILINKS_FILTER_CONTACTS_WHEN_SENDING_INVOICE_BY_MAIL=Offer only billing contacts for e-mail invoices
+FilterContactsWhenSendingInvoiceByMailHelpText=When this option is activated, only billing contacts are available as recipients or copies when an invoice is sent by e-mail.
+
+#
+# "About" page
+#
+About = About
+DoliLinksAbout = About DoliLinks
+DoliLinksAboutPage = "About" page of DoliLinks
+
+
+
+#
+# Links page
+#
+CreateLinkPageHtmlTitle=Company %s links
+CreateLinkPageTitle=Company links
+Parents=Parents
+Childs=Children
+ElementOrElements=element(s)
+LinkType=Link type
+AddNewLinkType=Create a new link type
+
+
+
+#
+# Company card
+#
+ParentsSocieties=Parent companies
+NoParentSocieties=No parent companies
+ChildsSocieties=Subsidiaries
+NoChildSocieties=No subsidiaries
+ShowMore=Show more
+ShowDiagram=Show diagram
+
+
+#
+# Tpl contacts.tpl.php
+#
+ThirdParty=Company
+ChildThirpartyContact=Child company contacts/addresses
+
+
+#
+# LinkType Page
+#
+LinkTypePageTitle=Link types between companies
+WrongDeleteIdMessage=Deletion impossible: missing or incorrect identifier.
+DeletationOkMessage=Link type successfully deleted.
+
+
+
+
+#
+#   Diagram Page
+#
+CurrentSociete=Current company
+
+
+#
+# Dictionary
+#
+DolilinksLinkTypeDictionary=Link type between companies
+
+#
+# Error messages
+#
+PARENT_ID_REQUIRED = Parent ID is required
+CHILD_ID_REQUIRED = Child ID is required
+CANNOT_LINK_COMPANY_TO_ITSELF = You cannot link a company to itself
+THIRD_PARTY_NOT_FOUND = Third party not found
+PARENT_COMPANY_NOT_FOUND = Parent company with id %s not found
+CHILD_COMPANY_NOT_FOUND = Child company with id %s not found
+LINK_ALREADY_EXISTS = Link already exists
+INCORRECT_ID_TO_FETCH_LINKTYPE = Incorrect id (%s) to fetch LinkType
+FAIL_TO_FETCH_LINKTYPE = Fail to fetch LinkType as array
+FAIL_TO_CREATE_LINKTYPE = Fail to create new LinkType
+SQL_ERROR = SQL error
+ERROR_OCCURRED = An error occurred
+IMPORT_SOCPARENT_TABLES = Import SocParent module tables
+FAIL_TO_FETCH_SOCIETE = Fail to fetch Societe id %s. Error: %s
+PARENT_ID_MUST_BE_GREATER_THAN_0 = Parent id must be greater than 0
+CHILD_ID_MUST_BE_GREATER_THAN_0 = Child id must be greater than 0
+FAIL_TO_UNSET_FK_LINK_TYPE = Fail to unset fk_link_type
+FAIL_TO_DELETE_LINKTYPE = Fail to delete LinkType with id %s
+TABLES_SUCCESSFULLY_IMPORTED = Tables have been successfully imported

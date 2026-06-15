@@ -1,0 +1,106 @@
+# Fichier de traduction
+
+#
+# Générique
+#
+
+# Libellé du module 'ModuleDoliLinksName'
+ModuleDoliLinksName = DoliLinks
+# Description du module 'ModuleDoliLinksDesc'
+ModuleDoliLinksDesc = Description du module DoliLinks
+
+
+
+#
+# Page d'administration
+#
+DoliLinksSetup = Configuration de DoliLinks
+Settings = Paramètres
+DoliLinksSetupPage = Page de configuration de DoliLinks
+NewSection = Nouvelle section
+DOLILINKS_FILTER_CONTACTS_WHEN_SENDING_INVOICE_BY_MAIL=Ne proposer que les contacts de facturation pour l’envoi de la facture par mail
+FilterContactsWhenSendingInvoiceByMailHelpText=Quand cette option est activée, seuls les contacts de facturation sont disponibles comme destinataires ou en copie lors de l’envoi d’une facture par mail.
+
+#
+# Page "À propos"
+#
+About = À propos
+DoliLinksAbout = À propos de DoliLinks
+DoliLinksAboutPage = Page "À propos" de DoliLinks
+
+
+
+#
+# Page links
+#
+CreateLinkPageHtmlTitle=Liens de la socété %s
+CreateLinkPageTitle=Liens de la socété
+Parents=Parents
+Childs=Enfants
+ElementOrElements=élément(s)
+LinkType=Type de lien
+AddNewLinkType=Créer un nouveau type de lien
+
+
+
+#
+# Fiche société
+#
+ParentsSocieties=Parents
+NoParentSocieties=Pas de sociétés parentes
+ChildsSocieties=Enfants
+NoChildSocieties=Pas de sociétés filles
+ShowMore=Voir plus
+ShowDiagram=Voir le diagramme
+
+
+#
+# Tpl contacts.tpl.php
+#
+ThirdParty=Société
+ChildThirpartyContact=Contacts/Adresses de tiers enfants
+
+
+#
+# LinkType Page
+#
+LinkTypePageTitle=Types de lien entre tiers
+WrongDeleteIdMessage=Suppression impossible: identifiant manquant ou incorrect.
+DeletationOkMessage=Type de lien supprimmé avec succès.
+
+
+
+
+#
+#   Diagram Page
+#
+CurrentSociete=Société courante
+
+
+#
+# Dictionnaire
+#
+DolilinksLinkTypeDictionary=Type de lien entre sociétés
+
+#
+# Messages d'erreur
+#
+PARENT_ID_REQUIRED = L'ID du parent est requis
+CHILD_ID_REQUIRED = L'ID de l'enfant est requis
+CANNOT_LINK_COMPANY_TO_ITSELF = Vous ne pouvez pas lier une société à elle-même
+THIRD_PARTY_NOT_FOUND = Tiers non trouvé
+PARENT_COMPANY_NOT_FOUND = Société parente avec l'ID %s non trouvée
+CHILD_COMPANY_NOT_FOUND = Société enfant avec l'ID %s non trouvée
+LINK_ALREADY_EXISTS = Le lien existe déjà
+INCORRECT_ID_TO_FETCH_LINKTYPE = ID incorrect (%s) pour récupérer LinkType
+FAIL_TO_FETCH_LINKTYPE = Échec de récupération de LinkType en tant que tableau
+FAIL_TO_CREATE_LINKTYPE = Échec de création du nouveau LinkType
+SQL_ERROR = Erreur SQL
+ERROR_OCCURRED = Une erreur s'est produite
+IMPORT_SOCPARENT_TABLES = Importer les tables du module SocParent
+FAIL_TO_FETCH_SOCIETE = Échec de récupération de la société ID %s. Erreur: %s
+PARENT_ID_MUST_BE_GREATER_THAN_0 = L'ID du parent doit être supérieur à 0
+CHILD_ID_MUST_BE_GREATER_THAN_0 = L'ID de l'enfant doit être supérieur à 0
+FAIL_TO_UNSET_FK_LINK_TYPE = Échec de suppression de fk_link_type
+FAIL_TO_DELETE_LINKTYPE = Échec de suppression du LinkType avec l'ID %s
+TABLES_SUCCESSFULLY_IMPORTED = Les tables ont bien été importées

@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS llx_c_dolilinks_link_type (
+    rowid INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    code VARCHAR(32) NOT NULL,
+    label VARCHAR(255) NOT NULL,
+    active TINYINT NOT NULL DEFAULT 1
+) ENGINE=InnoDB;

@@ -1,0 +1,106 @@
+# Archivo de traducción
+
+#
+# Genérico
+#
+
+# Etiqueta del módulo 'ModuleDoliLinksName'
+ModuleDoliLinksName = DoliLinks
+# Descripción del módulo 'ModuleDoliLinksDesc'
+ModuleDoliLinksDesc = Descripción del módulo DoliLinks
+
+
+
+#
+# Página de administración
+#
+DoliLinksSetup = Configuración de DoliLinks
+Settings = Configuración
+DoliLinksSetupPage = Página de configuración de DoliLinks
+NewSection = Nueva sección
+DOLILINKS_FILTER_CONTACTS_WHEN_SENDING_INVOICE_BY_MAIL=Ofrecer solo los datos de facturación para el envío de facturas por correo electrónico
+FilterContactsWhenSendingInvoiceByMailHelpText=Cuando esta opción está activada, solo los contactos de facturación están disponibles como destinatarios o en copia al enviar una factura por correo electrónico.
+
+#
+# Página "Acerca de"
+#
+About = Acerca de
+DoliLinksAbout = Acerca de DoliLinks
+DoliLinksAboutPage = Página "Acerca de" de DoliLinks
+
+
+
+#
+# Página links
+#
+CreateLinkPageHtmlTitle=Enlaces de la empresa %s
+CreateLinkPageTitle=Enlaces de la empresa
+Parents=Padres
+Childs=Hijos
+ElementOrElements=elemento(s)
+LinkType=Tipo de enlace
+AddNewLinkType=Crear nuevo tipo de enlace
+
+
+
+#
+# Ficha empresa
+#
+ParentsSocieties=Padres
+NoParentSocieties=Sin empresas padre
+ChildsSocieties=Hijos
+NoChildSocieties=Sin empresas hijas
+ShowMore=Ver más
+ShowDiagram=Ver el diagrama
+
+
+#
+# Tpl contacts.tpl.php
+#
+ThirdParty=Empresa
+ChildThirpartyContact=Contactos/Direcciones de empresas hijas
+
+
+#
+# Página LinkType
+#
+LinkTypePageTitle=Tipos de enlace entre empresas
+WrongDeleteIdMessage=Eliminación imposible: identificador faltante o incorrecto.
+DeletationOkMessage=Tipo de enlace eliminado con éxito.
+
+
+
+
+#
+#   Página Diagrama
+#
+CurrentSociete=Empresa actual
+
+
+#
+# Diccionario
+#
+DolilinksLinkTypeDictionary=Tipo de enlace entre empresas
+
+#
+# Mensajes de error
+#
+PARENT_ID_REQUIRED = Se requiere ID del padre
+CHILD_ID_REQUIRED = Se requiere ID del hijo
+CANNOT_LINK_COMPANY_TO_ITSELF = No puede vincular una empresa consigo misma
+THIRD_PARTY_NOT_FOUND = Tercero no encontrado
+PARENT_COMPANY_NOT_FOUND = Empresa padre con ID %s no encontrada
+CHILD_COMPANY_NOT_FOUND = Empresa hija con ID %s no encontrada
+LINK_ALREADY_EXISTS = El enlace ya existe
+INCORRECT_ID_TO_FETCH_LINKTYPE = ID incorrecto (%s) para obtener LinkType
+FAIL_TO_FETCH_LINKTYPE = Error al obtener LinkType como array
+FAIL_TO_CREATE_LINKTYPE = Error al crear nuevo LinkType
+SQL_ERROR = Error SQL
+ERROR_OCCURRED = Ocurrió un error
+IMPORT_SOCPARENT_TABLES = Importar tablas del módulo SocParent
+FAIL_TO_FETCH_SOCIETE = Error al obtener la empresa ID %s. Error: %s
+PARENT_ID_MUST_BE_GREATER_THAN_0 = El ID del padre debe ser mayor que 0
+CHILD_ID_MUST_BE_GREATER_THAN_0 = El ID del hijo debe ser mayor que 0
+FAIL_TO_UNSET_FK_LINK_TYPE = Error al eliminar fk_link_type
+FAIL_TO_DELETE_LINKTYPE = Error al eliminar LinkType con ID %s
+TABLES_SUCCESSFULLY_IMPORTED = Las tablas se han importado correctamente

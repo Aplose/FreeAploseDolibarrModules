@@ -1,0 +1,106 @@
+# Übersetzungsdatei
+
+#
+# Allgemein
+#
+
+# Modulbezeichnung 'ModuleDoliLinksName'
+ModuleDoliLinksName = DoliLinks
+# Modulbeschreibung 'ModuleDoliLinksDesc'
+ModuleDoliLinksDesc = Beschreibung des DoliLinks-Moduls
+
+
+
+#
+# Administrationsseite
+#
+DoliLinksSetup = DoliLinks-Konfiguration
+Settings = Einstellungen
+DoliLinksSetupPage = DoliLinks-Konfigurationsseite
+NewSection = Neue Sektion
+DOLILINKS_FILTER_CONTACTS_WHEN_SENDING_INVOICE_BY_MAIL=Nur Rechnungsadressen für den Versand von Rechnungen per E-Mail angeben
+FilterContactsWhenSendingInvoiceByMailHelpText=Wenn diese Option aktiviert ist, stehen beim Versand einer Rechnung per E-Mail nur die Rechnungsadressen als Empfänger oder in Kopie zur Verfügung.
+
+#
+# "Über"-Seite
+#
+About = Über
+DoliLinksAbout = Über DoliLinks
+DoliLinksAboutPage = "Über"-Seite von DoliLinks
+
+
+
+#
+# Links-Seite
+#
+CreateLinkPageHtmlTitle=Verbindungen des Unternehmens %s
+CreateLinkPageTitle=Unternehmensverbindungen
+Parents=Eltern
+Childs=Kinder
+ElementOrElements=Element(e)
+LinkType=Verbindungstyp
+AddNewLinkType=Neuen Verbindungstyp erstellen
+
+
+
+#
+# Unternehmenskarte
+#
+ParentsSocieties=Eltern
+NoParentSocieties=Keine Mutterunternehmen
+ChildsSocieties=Kinder
+NoChildSocieties=Keine Tochterunternehmen
+ShowMore=Mehr anzeigen
+ShowDiagram=Diagramm anzeigen
+
+
+#
+# Tpl contacts.tpl.php
+#
+ThirdParty=Unternehmen
+ChildThirpartyContact=Kontakte/Adressen von Tochterunternehmen
+
+
+#
+# LinkType-Seite
+#
+LinkTypePageTitle=Verbindungstypen zwischen Unternehmen
+WrongDeleteIdMessage=Löschung nicht möglich: Fehlende oder falsche ID.
+DeletationOkMessage=Verbindungstyp erfolgreich gelöscht.
+
+
+
+
+#
+#   Diagramm-Seite
+#
+CurrentSociete=Aktuelles Unternehmen
+
+
+#
+# Wörterbuch
+#
+DolilinksLinkTypeDictionary=Verbindungstyp zwischen Unternehmen
+
+#
+# Fehlermeldungen
+#
+PARENT_ID_REQUIRED = Eltern-ID ist erforderlich
+CHILD_ID_REQUIRED = Kinder-ID ist erforderlich
+CANNOT_LINK_COMPANY_TO_ITSELF = Ein Unternehmen kann nicht mit sich selbst verknüpft werden
+THIRD_PARTY_NOT_FOUND = Dritter nicht gefunden
+PARENT_COMPANY_NOT_FOUND = Mutterunternehmen mit ID %s nicht gefunden
+CHILD_COMPANY_NOT_FOUND = Tochterunternehmen mit ID %s nicht gefunden
+LINK_ALREADY_EXISTS = Verbindung existiert bereits
+INCORRECT_ID_TO_FETCH_LINKTYPE = Falsche ID (%s) zum Abrufen von LinkType
+FAIL_TO_FETCH_LINKTYPE = Fehler beim Abrufen von LinkType als Array
+FAIL_TO_CREATE_LINKTYPE = Fehler beim Erstellen eines neuen LinkType
+SQL_ERROR = SQL-Fehler
+ERROR_OCCURRED = Ein Fehler ist aufgetreten
+IMPORT_SOCPARENT_TABLES = SocParent-Modultabellen importieren
+FAIL_TO_FETCH_SOCIETE = Fehler beim Abrufen der Unternehmens-ID %s. Fehler: %s
+PARENT_ID_MUST_BE_GREATER_THAN_0 = Eltern-ID muss größer als 0 sein
+CHILD_ID_MUST_BE_GREATER_THAN_0 = Kinder-ID muss größer als 0 sein
+FAIL_TO_UNSET_FK_LINK_TYPE = Fehler beim Entfernen von fk_link_type
+FAIL_TO_DELETE_LINKTYPE = Fehler beim Löschen von LinkType mit ID %s
+TABLES_SUCCESSFULLY_IMPORTED = Tabellen wurden erfolgreich importiert

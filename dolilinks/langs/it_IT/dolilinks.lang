@@ -1,0 +1,106 @@
+# File di traduzione
+
+#
+# Generico
+#
+
+# Etichetta del modulo 'ModuleDoliLinksName'
+ModuleDoliLinksName = DoliLinks
+# Descrizione del modulo 'ModuleDoliLinksDesc'
+ModuleDoliLinksDesc = Descrizione del modulo DoliLinks
+
+
+
+#
+# Pagina di amministrazione
+#
+DoliLinksSetup = Configurazione di DoliLinks
+Settings = Impostazioni
+DoliLinksSetupPage = Pagina di configurazione di DoliLinks
+NewSection = Nuova sezione
+DOLILINKS_FILTER_CONTACTS_WHEN_SENDING_INVOICE_BY_MAIL=Offrire solo i contatti di fatturazione per l'invio di fatture via email
+FilterContactsWhenSendingInvoiceByMailHelpText=Quando questa opzione è attivata, solo i contatti di fatturazione sono disponibili come destinatari o in copia quando una fattura viene inviata via email.
+
+#
+# Pagina "Informazioni"
+#
+About = Informazioni
+DoliLinksAbout = Informazioni su DoliLinks
+DoliLinksAboutPage = Pagina "Informazioni" di DoliLinks
+
+
+
+#
+# Pagina links
+#
+CreateLinkPageHtmlTitle=Collegamenti dell'azienda %s
+CreateLinkPageTitle=Collegamenti dell'azienda
+Parents=Genitori
+Childs=Figli
+ElementOrElements=elemento/i
+LinkType=Tipo di collegamento
+AddNewLinkType=Crea un nuovo tipo di collegamento
+
+
+
+#
+# Scheda azienda
+#
+ParentsSocieties=Genitori
+NoParentSocieties=Nessuna azienda genitore
+ChildsSocieties=Figli
+NoChildSocieties=Nessuna azienda figlia
+ShowMore=Mostra di più
+ShowDiagram=Mostra il diagramma
+
+
+#
+# Tpl contacts.tpl.php
+#
+ThirdParty=Azienda
+ChildThirpartyContact=Contatti/Indirizzi di aziende figlie
+
+
+#
+# Pagina LinkType
+#
+LinkTypePageTitle=Tipi di collegamento tra aziende
+WrongDeleteIdMessage=Eliminazione impossibile: identificatore mancante o errato.
+DeletationOkMessage=Tipo di collegamento eliminato con successo.
+
+
+
+
+#
+#   Pagina Diagramma
+#
+CurrentSociete=Azienda corrente
+
+
+#
+# Dizionario
+#
+DolilinksLinkTypeDictionary=Tipo di collegamento tra aziende
+
+#
+# Messaggi di errore
+#
+PARENT_ID_REQUIRED = L'ID del genitore è richiesto
+CHILD_ID_REQUIRED = L'ID del figlio è richiesto
+CANNOT_LINK_COMPANY_TO_ITSELF = Non puoi collegare un'azienda a se stessa
+THIRD_PARTY_NOT_FOUND = Terza parte non trovata
+PARENT_COMPANY_NOT_FOUND = Azienda genitore con ID %s non trovata
+CHILD_COMPANY_NOT_FOUND = Azienda figlia con ID %s non trovata
+LINK_ALREADY_EXISTS = Il collegamento esiste già
+INCORRECT_ID_TO_FETCH_LINKTYPE = ID errato (%s) per recuperare LinkType
+FAIL_TO_FETCH_LINKTYPE = Errore nel recupero di LinkType come array
+FAIL_TO_CREATE_LINKTYPE = Errore nella creazione del nuovo LinkType
+SQL_ERROR = Errore SQL
+ERROR_OCCURRED = Si è verificato un errore
+IMPORT_SOCPARENT_TABLES = Importa le tabelle del modulo SocParent
+FAIL_TO_FETCH_SOCIETE = Errore nel recupero dell'azienda ID %s. Errore: %s
+PARENT_ID_MUST_BE_GREATER_THAN_0 = L'ID del genitore deve essere maggiore di 0
+CHILD_ID_MUST_BE_GREATER_THAN_0 = L'ID del figlio deve essere maggiore di 0
+FAIL_TO_UNSET_FK_LINK_TYPE = Errore nella rimozione di fk_link_type
+FAIL_TO_DELETE_LINKTYPE = Errore nell'eliminazione di LinkType con ID %s
+TABLES_SUCCESSFULLY_IMPORTED = Le tabelle sono state importate con successo
