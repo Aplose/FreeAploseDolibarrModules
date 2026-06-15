@@ -1,0 +1,64 @@
+# Copyright (C) 2021 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleAutoSendName'
+ModuleAutoSendName = AutoSend
+# Module description 'ModuleAutoSendDesc'
+ModuleAutoSendDesc = Description de AutoSend
+
+#
+# Page d'administration
+#
+AutoSendSetup = Configuration du module AutoSend
+Settings = Réglages
+AutoSendSetupPage = Page de configuration du module AutoSend
+
+#
+# Page À propos
+#
+About = À propos
+AutoSendAbout = À propos de AutoSend
+AutoSendAboutPage = Page à propos de AutoSend
+AutoSendHelpPage = Manuel d'utilisation d'AutoSend :<BR><BR>AutoSend est le compagnon idéal de <a href="https://www.dolistore.com/fr/modules/1531-Ods2Csv.html" target="_blank">Ods2Csv</a> car il permet, après la génération d'un fichier csv par celui-ci, d'envoyer automatiquement le fichier sur le serveur ftp de votre choix.<BR>Après avoir activé le module, il vous suffit de créer des règles d'envoi dans le dictionnaire de AutoSend avec le respect des règles suivantes :<BR>Code : c'est un simple nom pour retrouver votre règle d'envoi<BR>Hôte : c'est le nom ou l'adresse IP du serveur FTP<BR>Port : c'est le port de connexion FTP (21 par défaut)<BR>Utilisateur FTP : c'est l'utilisateur de connexion au serveur FTP<BR>Mot de passe FTP : c'est le mot de passe de connexion au serveur FTP<BR>Répertoire distant (optionnel) : c'est le répertoire FTP distant dans lequel vous souhaitez déposer le fichier<BR>Mode FTP (ftp, ftps) : c'est le mode ftp (normal) ou ftps (avec tunnel ssl) que autosend doit utiliser<BR>Regex correspondance fichier : seuls les fichiers qui correspondront à cette règle seront pris en compte pour l'envoi. Une regex simple comme /fiche_expe.csv/ prendra en compte tous les fichiers dont le nom se termine par fiche_expe.csv. Pour des regex plus complexes (assez technique) c'est ici : <a href="https://www.php.net/manual/fr/reference.pcre.pattern.syntax.php" target="_blank">Syntaxe des masques</a><BR>Règle de nom distant : permet de donner un nom spécifique au fichier envoyé en remplaçant des patterns selon la situation. Les patterns existants sont :<ul><li>#REF# sera remplacé par la référence de l'objet Dolibarr correspondant (expédition, commande, ...)</li><li>#REF_CUSTOMER# sera remplacé par la référence client de l'objet Dolibarr correspondant (expédition, commande, ...)</li><li>#YYYY# sera remplacé par l'année sur 4 digits</li><li>#YY# sera remplacé par l'année courante sur 2 digits</li><li>#MM# sera remplacé par le mois courant sur 2 digits</li><li>#DD# sera remplacé par le jour courant sur 2 digits</li><li>#H# sera remplacé par l'heure courante</li><li>#m# sera remplacé par la minute courante</li><li>#s# sera remplacé par la seconde courante</li></ul><BR>Ainsi, par exemple, la règle #DD##MM##YYYY#-#REF#.csv pourra donner le nom 20112021-SH0002.csv<BR>Statut de l'objet : c'est la valeur du statut de l'objet Dolibarr pour lequel le fichier est envoyé. 0 (brouillon), 1 (validé), ...<BR>Envoi auto : si différent de 1, l'envoi n'est pas automatique, dans une prochaine version il pourra être manuel.
+
+#
+# Page d'exemple
+#
+MyPageName = Nom de ma page
+
+#
+# Box d'exemple
+#
+MyWidget = Mon widget
+MyWidgetDescription = Description de mon widget
+
+#
+# Dictionnaire
+#
+Code = Code
+Ftp_host = Hôte
+Ftp_port = Port
+Ftp_user = Utilisateur FTP
+Ftp_password = Mot de passe FTP
+Ftp_directory = Répertoire distant
+Ftp_mode = Mode FTP (ftp, ftps)
+File_regex = Regex correspondance fichier
+File_rename_rule = Règle de nom distant
+Object_status = Statut de l'objet
+Auto = Envoi auto

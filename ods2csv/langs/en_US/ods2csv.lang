@@ -1,0 +1,54 @@
+# Copyright (C) 2021 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see .
+
+#
+# Generic
+#
+
+# Module label 'ModuleOds2CsvName'
+ModuleOds2CsvName = Ods2Csv
+# Module description 'ModuleOds2CsvDesc'
+ModuleOds2CsvDesc = Automaticaly generate csv file when generating ods from template
+
+#
+# Admin page
+#
+Ods2CsvSetup = Ods2Csv setup
+Settings = Settings
+Ods2CsvSetupPage = Ods2Csv setup page
+ODS2CSV_MYPARAM1 = My param 1
+ODS2CSV_MYPARAM1Tooltip = My param 1 tooltip
+ODS2CSV_MYPARAM2=My param 2
+ODS2CSV_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+Ods2CsvAbout = About Ods2Csv
+Ods2CsvAboutPage = Ods2Csv about page
+Odt2CsvHelpPage = Ods2Csv Help Manual:<BR><BR>You just need to activate the module and have some LibreOffice ODS templates on your Dolibarr.<BR><BR>As soon as an ODS file is generated, a csv file of the first sheet is generated.<BR><BR>To change the field separator (, by default), you need to add in "Setup->Other Setup" a new parameter ODS2CSVSEPARATOR with the choosen character. Enjoy !
+
+#
+# Sample page
+#
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description

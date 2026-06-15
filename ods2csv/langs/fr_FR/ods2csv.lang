@@ -1,0 +1,49 @@
+# Copyright (C) 2021 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see .
+
+#
+# Générique
+#
+
+# Module label 'ModuleOds2CsvName'
+ModuleOds2CsvName = Ods2Csv
+# Module description 'ModuleOds2CsvDesc'
+ModuleOds2CsvDesc = Générer automatiquement un csv à partir d'un fichier ODS provenant d'un modèle
+
+#
+# Page d'administration
+#
+Ods2CsvSetup = Configuration du module Ods2Csv
+Settings = Réglages
+Ods2CsvSetupPage = Page de configuration du module Ods2Csv
+
+#
+# Page À propos
+#
+About = À propos
+Ods2CsvAbout = À propos de Ods2Csv
+Ods2CsvAboutPage = Page à propos de Ods2Csv
+Odt2CsvHelpPage = Manuel d'utilisation de Ods2Csv :<BR><BR>Il vous suffit d'activer simplement le module et d'avoir des modèles de documents ODS mis en place à l'aide de LibreOffice sur votre Dolibarr.<BR><BR>Dès qu'un fichier ODS est produit, un fichier CSV est généré.<BR><BR>Pour changer le séparateur par défaut (,) vous devez ajouter dans "Configuration->Divers" un paramètre ODS2CSVSEPARATOR avec le caractère choisi. Enjoy !
+
+#
+# Page d'exemple
+#
+MyPageName = Nom de ma page
+
+#
+# Box d'exemple
+#
+MyWidget = Mon widget
+MyWidgetDescription = Description de mon widget

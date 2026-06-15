@@ -1,0 +1,70 @@
+# Copyright (C) 2021 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleAutoSendName'
+ModuleAutoSendName = AutoSend
+# Module description 'ModuleAutoSendDesc'
+ModuleAutoSendDesc = AutoSend description
+
+#
+# Admin page
+#
+AutoSendSetup = AutoSend setup
+Settings = Settings
+AutoSendSetupPage = AutoSend setup page
+AUTOSEND_MYPARAM1 = My param 1
+AUTOSEND_MYPARAM1Tooltip = My param 1 tooltip
+AUTOSEND_MYPARAM2=My param 2
+AUTOSEND_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+AutoSendAbout = About AutoSend
+AutoSendAboutPage = AutoSend about page
+AutoSendHelpPage = AutoSend Help Manual:<BR><BR>AutoSend is the best friend of <a href="https://www.dolistore.com/en/modules/1531-Ods2Csv.html" target="_blank">Ods2Csv</a> module because it allows you to autosend a csv file (or ods file) just after its generation on the ftp server of your choice.<BR>After activation, you just need to create send rules in autosend dictionnary respecting the following rules:<BR>Code: this is a simple name to retreive easily your send rule<BR>FTP Host: it's the name or ip address of the ftp server<BR>Port: it's the ftp communication port (21 by default)<BR>FTP user: it's the authentication ftp user name<BR>FTP Password: it's the auhtentication ftp user password<BR>FTP Remote directory: it's the remote ftp directory where you need to put the file<BR>FTP mode (ftp, ftps) : it's the ftp mode (not encrypted) or ftps (with ssl encryption) that autosend will use<BR>Finding file Regex: only files matching this regex will be send. A simple regex as /fiche_expe.csv/ will take files with the name ending with fiche_expe.csv. For more complex regex, have a look here: <a href="https://www.php.net/manual/en/reference.pcre.pattern.syntax.php" target="_blank">Pattern syntax</a><BR>FTP rename rule: allow you to rename the remote file replacing given patterns. Existing patterns are:<ul><li>#REF# will be replaced by the dolibarr object ref (shipping ref, order ref, ...)</li><li>#REF_CUSTOMER# will be replaced by the dolibarr object customer ref (shipping customer ref, order customer ref, ...)</li><li>#YYYY# will be replaced by the 4 digit current year</li><li>#YY# will be replaced by the 2 digit current year</li><li>#MM#  will be replaced by the 2 digit current month</li><li>#DD# will be replaced by the 2 digit current day</li><li>#H# will be replaced by the current hour</li><li>#m# will be replaced by the current minute</li><li>#s# will be replaced by the current second</li></ul><BR>For instance, the following rule #DD##MM##YYYY#-#REF#.csv can give the following name 20112021-SH0002.csv<BR>Object status: it's the dolibarr object status for wich the file will be sent. 0 (draft), 1 (validated), ...<BR>Auto send: if not 1, the sending is not automatic. Will be used in next version.
+
+
+#
+# Sample page
+#
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
+
+#
+# Dictionnaire
+#
+Code = Code
+Ftp_host = Host
+Ftp_port = Port
+Ftp_user = FTP User
+Ftp_password = FTP password
+Ftp_directory = FTP remote directory
+Ftp_mode = FTP mode (ftp, ftps)
+File_regex = Finding file regex
+File_rename_rule = Remote naming rule
+Object_status = Object status
+Auto = Auto send
